@@ -33,16 +33,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "officedocs-dev-outlook-pia/xml",
+        "OutputYamlFolder": "officedocs-dev-outlook-pia/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "officedocs-dev-outlook-pia"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "officedocs-dev-outlook-pia/api/officedocs-dev-outlook-pia/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "officedocs-dev-outlook-pia/api"
       ]
     }
   ],
