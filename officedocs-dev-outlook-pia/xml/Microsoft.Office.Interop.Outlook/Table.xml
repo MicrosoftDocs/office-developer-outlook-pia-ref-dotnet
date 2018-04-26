@@ -1,0 +1,35 @@
+﻿<Type Name="Table" FullName="Microsoft.Office.Interop.Outlook.Table">
+  <TypeSignature Language="C#" Value="public interface Table : Microsoft.Office.Interop.Outlook._Table" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Table implements class Microsoft.Office.Interop.Outlook._Table" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Table" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Table&#xA;Implements _Table" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Table : Microsoft::Office::Interop::Outlook::_Table" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Table</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TableClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a set of item data from a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> or <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object, with  items as rows of the table and properties as columns of  the table.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Table" />. </para>
+      <para>The <b>Table</b> represents a read-only dynamic rowset of data in a <b>Folder</b> or <b>Search</b> object. You can use <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" /> to obtain a <b>Table</b> object that represents a set of items in a folder or search folder. If the <b>Table</b> object is obtained from <b>Folder.GetTable</b>, you can further specify a filter (in <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) to obtain a subset of the items in the folder. If you do not specify any filter, you will obtain all the items in the folder. </para>
+      <para>By default, each item in the returned <b>Table</b> contains only a default subset of its properties. You can regard each row of a <b>Table</b> as an item in the folder, each column as a property of the item, and   the <b>Table</b> as an in-memory lightweight rowset that allows fast enumeration and filtering of items in the folder. Although additions and deletions of the underlying folder are reflected by the rows in the <b>Table</b>, the <b>Table</b> does not support any events for adding, changing, and removing of rows. If you require a writeable object from the <b>Table</b> row, obtain the Entry ID for that row from the default EntryID column in the <b>Table</b> and then use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to obtain a full item, such as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> or a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />, that supports read-write operations. For more information on default columns in a <b>Table</b>, see Default Properties Displayed in a Table Object.</para>
+      <para> For more information on the <b>Table</b> object, see Enumerating, Searching, and Filtering Items in a Folder.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

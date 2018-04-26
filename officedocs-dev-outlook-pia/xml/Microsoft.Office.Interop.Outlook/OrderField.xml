@@ -1,0 +1,58 @@
+﻿<Type Name="OrderField" FullName="Microsoft.Office.Interop.Outlook.OrderField">
+  <TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OrderField implements class Microsoft.Office.Interop.Outlook._OrderField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OrderField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OrderField&#xA;Implements _OrderField" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OrderField : Microsoft::Office::Interop::Outlook::_OrderField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._OrderField</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.OrderFieldClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006309B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an order field, used to sort information in a view.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />. </para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object to add an Outlook item property to the <b>SortFields</b> collection for the following objects derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+          </para>
+        </item>
+      </list>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property to obtain the name of the order field as referenced in the XML definition of the view.</para>
+      <para>
+        <b>OrderField</b> objects contained in an <b>OrderFields</b> collection are applied to Outlook items displayed in the view in the order in which the objects are contained in the collection. For each <b>OrderField</b> object, use the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property to determine whether to sort the contents of the order field in ascending or descending order.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

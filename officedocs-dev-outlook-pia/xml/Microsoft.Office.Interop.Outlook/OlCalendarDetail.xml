@@ -1,0 +1,80 @@
+﻿<Type Name="OlCalendarDetail" FullName="Microsoft.Office.Interop.Outlook.OlCalendarDetail">
+  <TypeSignature Language="C#" Value="public enum OlCalendarDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlCalendarDetail extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlCalendarDetail" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlCalendarDetail" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indicates the level of detail for calendar items that will be exported to an iCalendar (.ics) file. </summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object to determine the level of detail for calendar items stored in the iCalendar file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olFreeBusyAndSubject">
+      <MemberSignature Language="C#" Value="olFreeBusyAndSubject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarDetail olFreeBusyAndSubject = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarDetail.olFreeBusyAndSubject" />
+      <MemberSignature Language="VB.NET" Value="olFreeBusyAndSubject" />
+      <MemberSignature Language="C++ CLI" Value="olFreeBusyAndSubject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Free/busy information and the appointment subjects are exported to the iCalendar file. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olFreeBusyOnly">
+      <MemberSignature Language="C#" Value="olFreeBusyOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarDetail olFreeBusyOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarDetail.olFreeBusyOnly" />
+      <MemberSignature Language="VB.NET" Value="olFreeBusyOnly" />
+      <MemberSignature Language="C++ CLI" Value="olFreeBusyOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Only free/busy information is exported to the iCalendar file.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olFullDetails">
+      <MemberSignature Language="C#" Value="olFullDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarDetail olFullDetails = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarDetail.olFullDetails" />
+      <MemberSignature Language="VB.NET" Value="olFullDetails" />
+      <MemberSignature Language="C++ CLI" Value="olFullDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Full details of each appointment item are exported to the iCalendar file. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

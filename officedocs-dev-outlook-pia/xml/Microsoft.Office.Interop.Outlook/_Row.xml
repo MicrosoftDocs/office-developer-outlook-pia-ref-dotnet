@@ -1,0 +1,312 @@
+<Type Name="_Row" FullName="Microsoft.Office.Interop.Outlook._Row">
+  <TypeSignature Language="C#" Value="public interface _Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Row" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryToString">
+      <MemberSignature Language="C#" Value="public string BinaryToString (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string BinaryToString([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BinaryToString (Index As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ BinaryToString(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64259)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</param>
+        <summary>Obtains a <b>String</b> (<b>string</b> in C#) representing a value that has been converted from a binary value for the parent <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> at the column specified by <paramref name="Index" />.</summary>
+        <returns>A hexadecimal <b>String</b> (<b>string</b> in C#) value that has been converted from a PT_BINARY value for the parent <b>Row</b> at the column specified by <paramref name="Index" />. Returns the error, "Cannot convert the column specified by Index to String" if the value specified by <paramref name="Index" /> is not PT_BINARY.</returns>
+        <remarks>
+          <para>Use the helper functions <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row. For more information on property value representation in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValues">
+      <MemberSignature Language="C#" Value="public object GetValues ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetValues() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.GetValues" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValues () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValues();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64462)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtains a one-dimensional array containing the values for all columns at the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> in the parent <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
+        <returns>An <b>Object</b> that represents an array of values for all the columns at that <b>Row</b> in the <b>Table</b>.</returns>
+        <remarks>
+          <para>
+            <b>GetValues</b> is a helper method that facilitates fetching all the column values in the <b>Row</b> in a single call.</para>
+          <para>Since the array is zero-based, the length of the array is the number of columns in the <b>Row</b> minus one.</para>
+          <para>Values returned in the array are of the same type as the values in the parent <b>Table</b>. This means that binary properties in the <b>Table</b> are returned as arrays of bytes. For date-time properties, if  a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> is a default column or if it has been added using an explicit built-in property name, then its value in the <b>Table</b> and in the array are expressed in local time. If the <b>Column</b> has been added to the <b>Table</b> using a namespace reference, then its value in the Table and in the array are expressed in Coordinated Universal  Time (UTC). For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtains an <b>Object</b> that represents the value for the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at the column specified by <paramref name="Index" />.</summary>
+        <value>An <b>Object</b> that represents the value of a property (as specified by <paramref name="Index" />) of an item (as specified by the parent <b>Row</b>).</value>
+        <remarks>
+          <para>If a <b>Column</b> has been added to a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> using a property name referencing a namespace, you must reference the <b>Column</b> in the <b>Row.Item</b> property (<b>this</b> in C#) by the same namespace reference. If you use an explicit built-in name reference in <b>Row.Item</b>, you will get an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalTimeToUTC">
+      <MemberSignature Language="C#" Value="public DateTime LocalTimeToUTC (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime LocalTimeToUTC([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LocalTimeToUTC (Index As Object) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime LocalTimeToUTC(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64257)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtains a <b>DateTime</b> value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from local time to Coordinated Universal Time (UTC). </summary>
+        <returns>A Date value that has been converted from a representation in local time to UTC. An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</returns>
+        <remarks>
+          <para>Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row.</para>
+          <para>For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UTCToLocalTime">
+      <MemberSignature Language="C#" Value="public DateTime UTCToLocalTime (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime UTCToLocalTime([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UTCToLocalTime (Index As Object) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime UTCToLocalTime(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtains a DateTime value in a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> specified by the <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object at <paramref name="Index" />, that has been converted from Coordinated Universal Time (UTC) to local time.</summary>
+        <returns>A Date value that has been converted from a representation in  UTC to local time. An error is returned if <paramref name="Index" /> is invalid or the row value indicated by <paramref name="Index" /> is not a Date value.</returns>
+        <remarks>
+          <para>Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <b>Row.UTCToLocalTime</b> to facilitate type conversion of column values at a specific row. </para>
+          <para>For information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a><b>Table</b> filters, see <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtering Items Using a Date-time Comparison</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

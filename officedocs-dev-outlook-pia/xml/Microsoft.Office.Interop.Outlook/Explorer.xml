@@ -1,0 +1,39 @@
+﻿<Type Name="Explorer" FullName="Microsoft.Office.Interop.Outlook.Explorer">
+  <TypeSignature Language="C#" Value="public interface Explorer : Microsoft.Office.Interop.Outlook._Explorer, Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Explorer implements class Microsoft.Office.Interop.Outlook._Explorer, class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Explorer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Explorer&#xA;Implements _Explorer, ExplorerEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Explorer : Microsoft::Office::Interop::Outlook::_Explorer, Microsoft::Office::Interop::Outlook::ExplorerEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Explorer</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ExplorerClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063003-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the window in which the contents of a folder are displayed.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Explorer" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorers.Item(System.Object)" /> property (<b>this</b> in C#) of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />  object to return the object representing a specific explorer. </para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" />  method to return the object representing the currently active explorer (if there is one).</para>
+      <para>Use the GetExplorer  method to return the Explorer object associated with a folder. </para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Display" />  method of a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object to display a folder in its associated explorer. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

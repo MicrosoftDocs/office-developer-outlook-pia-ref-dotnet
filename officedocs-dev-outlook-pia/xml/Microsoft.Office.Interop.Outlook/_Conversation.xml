@@ -1,0 +1,695 @@
+<Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
+  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Conversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public void ClearAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64610)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store from which categories of items that belong to the conversation should be removed.</param>
+        <summary>Removes all categories from all items in the conversation and stops the action of always assigning categories to items in the conversation.</summary>
+        <remarks>
+          <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the category removal action will apply to items of the conversation in the default delivery store. </para>
+          <para>After you apply the <b>ClearAlwaysAssignCategories</b> method on a conversation, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that conversation. Categories on existing items are cleared, and no categories are assigned to new items in the conversation.</para>
+          <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>ClearAlwaysAssignCategories</b> does not remove any categories.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationID">
+      <MemberSignature Language="C#" Value="public string ConversationID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.ConversationID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
+          <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public string GetAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64602)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which categories of items that belong to the conversation should be returned.</param>
+        <summary>Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that indicates the category or categories that are assigned to all new items that arrive in the conversation.</summary>
+        <returns>A <see cref="T:System.String" /> (<b>string</b> in C#) that contains one or more categories that are assigned to items in the conversation.</returns>
+        <remarks>
+          <para>Multiple categories are delimited by commas in the string of category names that this property returns. To convert the string of category names to an array of category names, use the Microsoft Visual Basic <b>Split</b> function.</para>
+          <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
+          <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>GetAlwaysAssignCategories</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation GetAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that holds the Deleted Items folder to which items of the conversation are moved.</param>
+        <summary>Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeration that indicates whether all new items that join the conversation are always moved to the Deleted Items folder in the specified delivery store.</summary>
+        <returns>A constant from the <b>OlAlwaysDeleteConversation</b> enumeration that indicates whether all new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</returns>
+        <remarks>
+          <para>If the <paramref name="Store" /> parameter specifies a non-delivery store such as an archive .pst store, the <b>GetAlwaysDelete</b> method returns a constant from <b>OlAlwaysDeleteConversation</b> that applies to conversation items in the default delivery store. Items on a non-delivery store are not moved to the Deleted Items folder for the default delivery store.</para>
+          <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, items of the conversation are always moved to the Deleted Items folder for the store that contains the items. In a cross-store conversation, items are moved to the Deleted Items folder for the store that contains the items. When <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Deleted Items folder for the default store.</para>
+          <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDeleteUnsupported</b>, the specified store does not support the action of always moving items to the Deleted Items folder of that store.</para>
+          <para>If <b>GetAlwaysDelete</b> returns <b>olDoNotDelete</b>, new items that arrive in the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the folder to which conversation items are moved resides.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder in the specified delivery store to which new items that arrive in the conversation are always moved.</summary>
+        <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object in the specified store to which all new items that arrive in the conversation are always moved.</returns>
+        <remarks>
+          <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the <b>GetAlwaysMoveToFolder</b> method returns a <b>Folder</b> object that applies to conversation items on the default delivery store.</para>
+          <para>If no folder, other than the Deleted Items folder, has been specified to always move conversation items into, the <b>GetAlwaysMoveToFolder</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChildren">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SimpleItems GetChildren (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetChildren([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetChildren (Item As Object) As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::SimpleItems ^ GetChildren(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all items under the specified conversation node.</summary>
+        <returns>A <b>SimpleItems</b> collection that represents the set of child items in the conversation under the node specified by the <paramref name="Item" /> parameter.</returns>
+        <remarks>
+          <para>The returned <b>SimpleItems</b> collection contains immediate child items of the conversation node specified by the <paramref name="Item" /> parameter. If the specified node does not exist in the conversation, the <b>GetChildren</b> method returns an error.</para>
+          <para>If no child items exist under that node, the <b>GetChildren</b> method returns a <b>SimpleItems</b> collection with zero objects, in which case the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParent">
+      <MemberSignature Language="C#" Value="public object GetParent (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetParent([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetParent(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetParent (Item As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetParent(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64594)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">A conversation node that is part of a conversation.</param>
+        <summary>Returns the parent item of the specified node in the conversation.</summary>
+        <returns>An <see cref="T:System.Object" /> (<b>object</b> in C#) that represents the parent conversation item of the node specified by the <paramref name="Item" /> parameter. </returns>
+        <remarks>
+          <para>If the node specified by the <paramref name="Item" /> parameter does not exist in the conversation, the <b>GetParent</b> method returns an error.</para>
+          <para>If the node specified by the <paramref name="Item" /> parameter does not have a parent item in the conversation, the <b>GetParent</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRootItems () As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::SimpleItems ^ GetRootItems();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64595)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all root items in the conversation.</summary>
+        <returns>A <b>SimpleItems</b> collection that includes the root item or all root items of the conversation.</returns>
+        <remarks>
+          <para>A conversation can have one or more root items. For example, if the root item of the conversation has three child items and the root item is permanently deleted, all three child items become root items.</para>
+          <para>If all items are deleted from the conversation after the <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> object has been obtained, <b>GetRootItems</b> returns a <b>SimpleItems</b> collection with zero objects. In this case, the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ GetTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64591)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains rows that represent all items in the conversation.</summary>
+        <returns>A <b>Table</b> object that contains rows that represent all items in the conversation.</returns>
+        <remarks>
+          <para>The <b>GetTable</b> method returns a <b>Table</b> that has all items of the conversation as the rows. The default set of columns is shown in the following table. </para>
+          <list type="table">
+            <item>
+              <description>1</description>
+              <description>
+                <b>EntryID</b>
+              </description>
+            </item>
+            <item>
+              <description>2</description>
+              <description>
+                <b>Subject</b>
+              </description>
+            </item>
+            <item>
+              <description>3</description>
+              <description>
+                <b>CreationTime</b>
+              </description>
+            </item>
+            <item>
+              <description>4</description>
+              <description>
+                <b>LastModificationTime</b>
+              </description>
+            </item>
+            <item>
+              <description>5</description>
+              <description>
+                <b>MessageClass</b>
+              </description>
+            </item>
+          </list>
+          <para>By default, the rows in the table are sorted by the <b>ConversationIndex</b> property of the items.</para>
+          <para>To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection. </para>
+          <para>The <b>Table</b> object returned by this <b>GetTable</b> method does not include items in the conversation that have been moved to the Deleted Items folder.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsRead">
+      <MemberSignature Language="C#" Value="public void MarkAsRead ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsRead() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAsRead ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAsRead();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64605)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Marks all items in the conversation as read.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsUnread">
+      <MemberSignature Language="C#" Value="public void MarkAsUnread ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsUnread() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsUnread" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAsUnread ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAsUnread();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Marks all items in the conversation as unread.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The parent of a <b>Conversation</b> object is the first item in the conversation.</para>
+          <para>If all items in the conversation are deleted after the <b>Conversation</b> object has been obtained, the <b>Parent</b> property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Conversation.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
+          <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public void SetAlwaysAssignCategories (string Categories, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysAssignCategories([in]string Categories, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysAssignCategories(System::String ^ Categories, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64607)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Categories" Type="System.String" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Categories">A comma-delimited <see cref="T:System.String" /> (<b>string</b> in C#) of one or more category names that are always assigned to all items in the conversation.</param>
+        <param name="Store">The <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> in which items of the conversation should always be assigned the categories specified by the <paramref name="Categories" /> parameter.</param>
+        <summary>Applies one or more categories to all existing items and future items of the conversation.</summary>
+        <remarks>
+          <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
+          <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> object occurs when you call the <b>SetAlwaysAssignCategories</b> method on a conversation.</para>
+          <para>To determine existing master categories for the current user, examine the <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> property of the <b>Store</b> object that is specified by the <paramref name="Store" /> parameter. If one or more categories specified by the <paramref name="Categories" /> parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.</para>
+          <para>To determine the existing categories that are always assigned to items of the conversation in the specified store, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</para>
+          <para>If <b>SetAlwaysAssignCategories</b> is called more than once, the result is cumulative. For example, if you call <b>SetAlwaysAssignCategories</b> specifying the category “Important” and then call <b>SetAlwaysAssignCategories</b> again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".</para>
+          <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty <b>String</b> (<b>string</b> in C#).</para>
+          <para>The <b>SetAlwaysAssignToCategories</b> method ignores any category names that are empty strings. For example, if the <paramref name="Categories" /> parameter is set to the string "Work,,Play", "Work" and "Play" are assigned to the conversation and the empty string category is ignored.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public void SetAlwaysDelete (Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysDelete([in]valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysDelete(Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation AlwaysDelete, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64608)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="AlwaysDelete" Type="Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="AlwaysDelete">An <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constant that indicates whether all existing and new items that arrive in the conversation are always moved to the Deleted Folder of the store specified by the <paramref name="Store" /> parameter.</param>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the Deleted Items folder to which existing and new items of the conversation are to be moved.</param>
+        <summary>Specifies a setting for the specified delivery store that indicates whether all existing items and all new items that arrive in the conversation are always moved to the Deleted Items folder in the specified delivery store.</summary>
+        <remarks>
+          <para>The <b>SetAlwaysDelete</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the action is applied to conversation items in the default delivery store.</para>
+          <para>If the <paramref name="AlwaysDelete" /> parameter is <b>olAlwaysDelete</b>, conversation items are moved to the Deleted Items folder for the specified store. In this case, the items are not permanently deleted, unless the user has specified a separate option to permanently delete items when Microsoft Outlook shuts down.</para>
+          <para>If <b>SetAlwaysDelete</b> returns <b>olDoNotDelete</b>, existing conversation items and new items that arrive in the conversation are not moved to the Deleted Items folder in the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public void SetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ MoveToFolder, Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64609)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MoveToFolder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="MoveToFolder">Specifies the folder to which all existing items and new items that arrive in the conversation are always moved.</param>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the folder to which items of the conversation are moved.</param>
+        <summary>Sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder to which all existing conversation items and new items that arrive in the conversation are always moved.</summary>
+        <remarks>
+          <para>The <b>SetAlwaysMoveToFolder</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the move action will apply to conversation items in the default delivery store.</para>
+          <para>If the <paramref name="MoveToFolder" /> parameter specifies an invalid folder that does not exist, has been moved, or is read-only, Outlook will raise an error. </para>
+          <para>To stop the always-move-to-folder action for conversations items in a store, call the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method</para>
+          <para>
+            <b>Note</b>: Setting the Deleted Items folder as the <paramref name="MoveToFolder" /> parameter in <b>SetAlwaysMoveToFolder</b> is not equivalent to calling <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> on the same store and conversation. Setting the <paramref name="MoveToFolder" /> parameter to the Deleted Items folder results in the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method returning the value <b>olDoNotDelete</b>.</para>
+          <para>The <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> event of the <b>Folder</b> object occurs when you call <b>SetAlwaysMoveToFolder</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysDelete">
+      <MemberSignature Language="C#" Value="public void StopAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64611)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which the stop-always-delete action applies.</param>
+        <summary>Stops the action of always moving conversation items in the specified store to the Deleted Items folder in that store.</summary>
+        <remarks>
+          <para>If the always-delete action has not been turned on (by calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> method), <b>StopAlwaysDelete</b> does nothing.</para>
+          <para>If the always-delete action has been turned on, <b>StopAlwaysDelete</b> moves existing conversation items in the Deleted Items folder to the Inbox.</para>
+          <para>After calling the <b>StopAlwaysDelete</b> method for a conversation in a store, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method on that conversation and store returns the constant <b>olDoNotDelete</b>.</para>
+          <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-delete action is applied to conversation items in the default delivery store.</para>
+          <para>Calling this method on a conversation that is already in the Deleted Items folder in the specified store returns an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public void StopAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void StopAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64612)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the conversation items to be cleaned up reside.</param>
+        <summary>Stops the action of always moving conversation items in the specified store to a specific folder.</summary>
+        <remarks>
+          <para>If the always-move action has not been turned on, <b>StopAlwaysMoveToFolder</b> does nothing.</para>
+          <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-move action will apply to conversation items in the default delivery store.</para>
+          <para>After you call the <b>StopAlwaysMoveToFolder</b> method, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

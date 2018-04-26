@@ -1,0 +1,61 @@
+﻿<Type Name="OlAttachmentBlockLevel" FullName="Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel">
+  <TypeSignature Language="C#" Value="public enum OlAttachmentBlockLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAttachmentBlockLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlAttachmentBlockLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlAttachmentBlockLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies whether there is any restriction on the type of attachments for an item.</summary>
+    <remarks>
+      <para>Attachments with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> equal to <b>olAttachmentBlockLevelOpen</b> are on the Level 2 list of attachments that administrators maintain for attachment security. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olAttachmentBlockLevelNone">
+      <MemberSignature Language="C#" Value="olAttachmentBlockLevelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel olAttachmentBlockLevelNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel.olAttachmentBlockLevelNone" />
+      <MemberSignature Language="VB.NET" Value="olAttachmentBlockLevelNone" />
+      <MemberSignature Language="C++ CLI" Value="olAttachmentBlockLevelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>There is no restriction on the type of the attachment based on its file extension.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olAttachmentBlockLevelOpen">
+      <MemberSignature Language="C#" Value="olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel olAttachmentBlockLevelOpen = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel.olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="VB.NET" Value="olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="C++ CLI" Value="olAttachmentBlockLevelOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>There is a restriction on the type of the attachment based on its file extension such that users must first save the attachment to disk before opening it.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

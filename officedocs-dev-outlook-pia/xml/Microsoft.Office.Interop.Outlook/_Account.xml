@@ -1,0 +1,594 @@
+<Type Name="_Account" FullName="Microsoft.Office.Interop.Outlook._Account">
+  <TypeSignature Language="C#" Value="public interface _Account" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Account" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Account" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Account" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Account" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Account" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccountType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAccountType AccountType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAccountType AccountType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.AccountType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccountType As OlAccountType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAccountType AccountType { Microsoft::Office::Interop::Outlook::OlAccountType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64210)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64210)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAccountType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAccountType" /> enumeration that indicates the type of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverConnectionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverConnectionMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoDiscoverConnectionMode As OlAutoDiscoverConnectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAutoDiscoverConnectionMode AutoDiscoverConnectionMode { Microsoft::Office::Interop::Outlook::OlAutoDiscoverConnectionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64623)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64623)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to use for the auto-discovery service of the Microsoft Exchange server that hosts the account mailbox. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverXml">
+      <MemberSignature Language="C#" Value="public string AutoDiscoverXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoDiscoverXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.AutoDiscoverXml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoDiscoverXml As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AutoDiscoverXml { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64624)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64624)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of the Microsoft Exchange Server that is associated with the account. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.AutoDiscoverXml" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the account for which auto-discovery is completed and not necessarily to the primary Exchange account.</para>
+          <para>The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</para>
+          <para>An error is returned if the account is not associated with an Exchange Server that is running Microsoft Exchange Server 2007 or later.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentUser">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipient CurrentUser { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipient CurrentUser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.CurrentUser" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentUser As Recipient" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipient ^ CurrentUser { Microsoft::Office::Interop::Outlook::Recipient ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64622)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64622)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that represents the current user identity for the account. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryStore">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Store DeliveryStore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Store DeliveryStore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeliveryStore As Store" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Store ^ DeliveryStore { Microsoft::Office::Interop::Outlook::Store ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64614)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64614)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the default delivery store for the account. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the account does not have a default delivery store.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the e-mail  <see cref="T:Microsoft.Office.Interop.Outlook.Account" />. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>DisplayName</b> is the default property of the <b>Account</b> object. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeConnectionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode ExchangeConnectionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode ExchangeConnectionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.ExchangeConnectionMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeConnectionMode As OlExchangeConnectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlExchangeConnectionMode ExchangeConnectionMode { Microsoft::Office::Interop::Outlook::OlExchangeConnectionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64615)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64615)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode for the Microsoft Exchange Server that hosts the account mailbox. Read-only</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeMailboxServerName">
+      <MemberSignature Language="C#" Value="public string ExchangeMailboxServerName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExchangeMailboxServerName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.ExchangeMailboxServerName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeMailboxServerName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExchangeMailboxServerName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64616)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64616)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Microsoft Exchange Server that hosts the account mailbox. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerName" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
+          <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeMailboxServerVersion">
+      <MemberSignature Language="C#" Value="public string ExchangeMailboxServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExchangeMailboxServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.ExchangeMailboxServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeMailboxServerVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExchangeMailboxServerVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64617)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64617)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) that represents the full version number of the Microsoft Exchange Server that hosts the account mailbox. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeMailboxServerVersion" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that this property applies to the Exchange Server that hosts the account mailbox, and not necessarily to the primary Exchange account.</para>
+          <para>This property returns a string that contains the version number of the Exchange server for the account. The version number has the following four parts:</para>
+          <para>&lt;major version&gt;.&lt;minor version&gt;.&lt;build number&gt;.&lt;revision&gt;</para>
+          <para>Not all parts may be present in the version number, depending on the version information that is supplied by the Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</para>
+          <para>If an Exchange mailbox is not associated with this account, this property returns an empty string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAddressEntryFromID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntry GetAddressEntryFromID (string ID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AddressEntry GetAddressEntryFromID([in]string ID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Account.GetAddressEntryFromID(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAddressEntryFromID (ID As String) As AddressEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AddressEntry ^ GetAddressEntryFromID(System::String ^ ID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64618)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ID">Used to identify an address entry that is maintained for the session.</param>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry specified by the given entry ID.</summary>
+        <returns>Returns an <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property that matches the specified <paramref name="ID" />.</returns>
+        <remarks>
+          <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetAddressEntryFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, but has some additional contextual information about which account to use for the look-up. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetAddressEntryFromID</b> method for the corresponding account. </para>
+          <para>The <b>ID</b> property for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. Outlook maintains a hierarchy of address books for a session, and the address entry that is returned must match the given ID and be in one of the address books. </para>
+          <para>
+            <b>GetAddressEntryFromID</b> returns an error if no item with the given ID can be found, if no connection is available, or if the user is set to work offline.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecipientFromID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipient GetRecipientFromID (string EntryID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Recipient GetRecipientFromID([in]string EntryID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Account.GetRecipientFromID(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRecipientFromID (EntryID As String) As Recipient" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Recipient ^ GetRecipientFromID(System::String ^ EntryID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64619)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="EntryID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="EntryID">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> of the recipient.</param>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> object that is identified by the given entry ID.</summary>
+        <returns>Returns a <b>Recipient</b> object that represents the recipient associated with the specified entry ID.</returns>
+        <remarks>
+          <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetRecipientFromID(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object. If there are multiple Microsoft Exchange accounts in the current profile, use the <b>GetRecipientFromID</b> method for the corresponding account.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IOlkAccount">
+      <MemberSignature Language="C#" Value="public object IOlkAccount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object IOlkAccount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.IOlkAccount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IOlkAccount As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ IOlkAccount { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent <b>Object</b> of the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
+          <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example,  the following pairs of statements perform the same function:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64212)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64212)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) representing the Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The purpose of <b>SmtpAddress</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Account.UserName" /> is to provide an account-based context to determine identity.</para>
+          <para>If the account does not have an SMTP address, <b>SmtpAddress</b> returns an empty string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public string UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Account.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64211)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64211)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) representing the user name for the <see cref="T:Microsoft.Office.Interop.Outlook.Account" />. Read-only. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The purpose of <see cref="P:Microsoft.Office.Interop.Outlook._Account.SmtpAddress" /> and <b>UserName</b> is to provide an account-based context to determine identity.</para>
+          <para>If the account does not have a user name defined, <b>UserName</b> returns an empty string.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

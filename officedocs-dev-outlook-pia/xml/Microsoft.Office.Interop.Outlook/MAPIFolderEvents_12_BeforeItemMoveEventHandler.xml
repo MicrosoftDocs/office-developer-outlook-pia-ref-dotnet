@@ -1,0 +1,37 @@
+﻿<Type Name="MAPIFolderEvents_12_BeforeItemMoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(object Item, MAPIFolder MoveTo, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MAPIFolderEvents_12_BeforeItemMoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MAPIFolderEvents_12_BeforeItemMoveEventHandler(Item As Object, MoveTo As MAPIFolder, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(System::Object ^ Item, MAPIFolder ^ MoveTo, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Item" Type="System.Object" />
+    <Parameter Name="MoveTo" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Item">Represents the Outlook item that is to be moved or deleted.</param>
+    <param name="MoveTo">Represents the folder to which the item is being moved. </param>
+    <param name="Cancel">Set this to <b>True</b> to cancel the move or delete action.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

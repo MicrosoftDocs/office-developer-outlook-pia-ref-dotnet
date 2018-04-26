@@ -1,0 +1,36 @@
+﻿<Type Name="NavigationFolder" FullName="Microsoft.Office.Interop.Outlook.NavigationFolder">
+  <TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolder implements class Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolder&#xA;Implements _NavigationFolder" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationFolder : Microsoft::Office::Interop::Outlook::_NavigationFolder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationFolder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationFolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a navigation folder displayed in a navigation group of a navigation module in the Navigation Pane.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />. </para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a <b>NavigationFolder</b> object from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> collection of the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> object. Use the <see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method of the <b>NavigationFolders</b> collection to create a new <b>NavigationFolder</b> object based on an existing <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" /> method to return or set the <b>Folder</b> object on which the <b>NavigationFolder</b> object is based.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> property to determine if the navigation folder is selected and the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" /> property to return or set the display position of the navigation folder within the Navigation Pane. You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" /> property to return the display name of the navigation folder within the Navigation Pane.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> property to determine if a navigation folder can be removed from the <b>NavigationFolders</b> collection and the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" /> property to return or set the viewing mode for a navigation folder associated with a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,36 @@
+﻿<Type Name="StoresEvents_12_BeforeStoreRemoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void StoresEvents_12_BeforeStoreRemoveEventHandler(Store Store, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StoresEvents_12_BeforeStoreRemoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub StoresEvents_12_BeforeStoreRemoveEventHandler(Store As Store, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void StoresEvents_12_BeforeStoreRemoveEventHandler(Store ^ Store, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Store">The <b>Store</b> object to be removed from the current session.</param>
+    <param name="Cancel">
+      <b>True</b> to cancel the removal of the specified store, <b>False</b> otherwise.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

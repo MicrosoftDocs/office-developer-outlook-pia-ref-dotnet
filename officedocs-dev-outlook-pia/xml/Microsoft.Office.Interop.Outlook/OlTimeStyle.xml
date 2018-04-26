@@ -1,0 +1,85 @@
+﻿<Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
+  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlTimeStyle" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4FD8B708-E730-49B5-BDD3-B807F48E5B83")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Specifies  how time values are displayed and how entries of time values are interpreted by  a time control.</summary>
+    <remarks>
+      <para>Use the time control with the <b>olTimeStyleShortDuration</b> style for duration fields, such as the <see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" />  of a <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />. Use the time control with the <b>olTimeStyleTimeDuration</b> style for the end time of an appointment item. Use the time control with the <b>olTimeStyleTimeOnly</b> style for the start time of an appointment item.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olTimeStyleShortDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleShortDuration = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleShortDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleShortDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The drop-down portion of the time control displays only duration values with the interval set by the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" /> property.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeDuration = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The drop-down portion of the time control displays time values starting from the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> and uses the <b>OlkTimeControl.IntervalTime</b> property as the increment.  The edit box of the time control displays the duration from the <b>ReferenceTime</b> to the selected time.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeOnly">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeOnly" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The drop-down portion of the time control displays only time values with the interval set by the <b>OlkTimeControl.IntervalTime</b> property.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

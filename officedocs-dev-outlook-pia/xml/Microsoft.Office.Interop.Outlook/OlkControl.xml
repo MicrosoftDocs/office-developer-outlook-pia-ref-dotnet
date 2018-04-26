@@ -1,0 +1,326 @@
+﻿<Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
+  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00067366-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines a set of control properties common to some Microsoft Outlook controls.</summary>
+    <remarks>
+      <para>The members offered by <b>OlkControl</b> can apply to most Outlook controls.  <b>OlkControl</b> provides a class to which  you can conveniently cast an Outlook  control without resorting to reflection. Although <b>OlkControl</b> does not apply to Microsoft Forms 2.0 controls, similar properties are available to Forms 2.0 controls. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: Additional Control Properties Available for Programming</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ControlProperty">
+      <MemberSignature Language="C#" Value="public string ControlProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ControlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ControlProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ControlProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) that represents the property on the control that the databind occurs with. Read/write</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables automatic adjustments of  the layout for the control with respect to the rest of the form. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Automatic adjustments of the layout of a control include vertically or horizontally aligning the control with respect to other controls, and sizing the height or the width of the control with respect to the length or the width of the form.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public int Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Format { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies how a value is to be displayed in  the control. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Format</b> property can be a constant in an enumeration that describes how to display a value. For example, you can specify <b>Format</b> as the constant <b>olFormatCurrencyDecimal</b> that is defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> enumeration to display a currency value in an <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> control.</para>
+          <para>The <b>Format</b> property is specific to the property in the Outlook Object  Model that the control is bound to. The latter is indicated by <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. If the control is not bound to any property, then accessing <b>Format</b> will return an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.HorizontalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalLayout As OlHorizontalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlHorizontalLayout HorizontalLayout { Microsoft::Office::Interop::Outlook::OlHorizontalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlHorizontalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> constant that specifies any alignment in the horizontal direction of this control with other selected controls on the form, or whether the control is adjusted in the horizontal direction automatically when the form's width is changed. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperty">
+      <MemberSignature Language="C#" Value="public string ItemProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) that specifies the name of the property in the Outlook object model that the control is bound to. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumHeight">
+      <MemberSignature Language="C#" Value="public int MinimumHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumHeight { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum height the control can be automatically sized down to. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> must be set to <b>True</b> in order for <b>MinimumLength</b> to become effective.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumWidth">
+      <MemberSignature Language="C#" Value="public int MinimumWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the minimum width the control can be automatically sized down to. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> must be set to <b>True</b> in order for <b>MinimumWidth</b> to become effective.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PossibleValues">
+      <MemberSignature Language="C#" Value="public string PossibleValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PossibleValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.PossibleValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property PossibleValues As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PossibleValues { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) that represents a list of possible values for the drop-down list for the control, seperated by semicolons. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For controls that do not support a drop-down list, the value of this property is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.VerticalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalLayout As OlVerticalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlVerticalLayout VerticalLayout { Microsoft::Office::Interop::Outlook::OlVerticalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlVerticalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> constant that specifies any alignment in the vertical direction of this control with other selected controls on the form, or whether the control is adjusted in the vertical direction automatically when the form's length is changed. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

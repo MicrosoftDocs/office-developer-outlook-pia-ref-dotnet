@@ -1,0 +1,40 @@
+﻿<Type Name="Folder" FullName="Microsoft.Office.Interop.Outlook.Folder">
+  <TypeSignature Language="C#" Value="public interface Folder : Microsoft.Office.Interop.Outlook.MAPIFolder, Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Folder implements class Microsoft.Office.Interop.Outlook.MAPIFolder, class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Folder&#xA;Implements MAPIFolder, MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Folder : Microsoft::Office::Interop::Outlook::MAPIFolder, Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolder</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063006-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an Outlook folder.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this interface to access all method, property, and event members of the COM object <b>Folder</b>. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />.</para>
+      <para>A <b>Folder</b> object can contain other <b>Folder</b> objects, as well as Outlook items. Use the <b>Folders</b> property of a <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object or another <b>Folder</b> object to return the set of folders in a <b>NameSpace</b> or under a folder. You can navigate nested folders by starting from a top-level folder, say the Inbox, and using a combination of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />  property, which returns the set of folders underneath a <b>Folder</b> object in the hierarchy, and the <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> property (<b>this</b> in C#), which returns a folder within the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection.</para>
+      <para>There is a set of folders within an Outlook data store that supports the default functionality of Outlook. Use <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />, specifying an <paramref name="index" /> that is one of the constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeration to return one of the default Outlook folders in the Outlook <b>NameSpace</b> object.</para>
+      <para> While generally it is a good practice to place items that serve the same functionality in the same folder, a folder can contain items of different types. For example, by default, the Calendar folder can contain <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> and <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> objects, and the Contacts folder can contain <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> and <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> objects. In general, when enumerating items in a folder, do not assume the type of an item in the folder; check the message class of the item before accessing properties that are applicable to the item.</para>
+      <para> Use the <see cref="M:Microsoft.Office.Interop.Outlook._Folders.Add(System.String,System.Object)" />  method to add a folder to the <b>Folders</b>  object. The <b>Add</b> method has an optional argument that can be used to specify the type of items that can be stored in that folder. By default, folders created inside another folder inherit the type of the parent folder.</para>
+      <para> Note that when items of a specific type are saved, they are saved directly into their corresponding default folder. For example, when the <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />  method is applied to a <b>MeetingItem</b>  in the Inbox folder, the appointment that is returned will be saved to the default Calendar folder.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

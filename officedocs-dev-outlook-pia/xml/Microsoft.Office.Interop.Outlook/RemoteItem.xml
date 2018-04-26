@@ -1,0 +1,41 @@
+﻿<Type Name="RemoteItem" FullName="Microsoft.Office.Interop.Outlook.RemoteItem">
+  <TypeSignature Language="C#" Value="public interface RemoteItem : Microsoft.Office.Interop.Outlook._RemoteItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RemoteItem implements class Microsoft.Office.Interop.Outlook._RemoteItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RemoteItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RemoteItem&#xA;Implements _RemoteItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RemoteItem : Microsoft::Office::Interop::Outlook::_RemoteItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RemoteItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RemoteItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063023-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a remote item in an Inbox folder.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._RemoteItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>The <b>RemoteItem</b> object is similar to the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />  object, but it contains only the Subject, Received Date and Time, Sender, Size, and the first 256 characters of the body of the message. It is used to give someone connecting in remote mode enough information to decide whether or not to download the corresponding mail message. However, the headers in items contained in an Offline Folders file (.ost) cannot be accessed using the <b>RemoteItem</b> object.</para>
+      <para>Unlike other Microsoft Outlook objects, you cannot create this object. Remote items are created by Outlook automatically when you use a Remote Access System (RAS) connection. Each <b>RemoteItem</b> object created on the local system corresponds to a preexisting <b>MailItem</b> object on the remote system.</para>
+      <para>The <b>RemoteItem</b> object inherits a number of properties, methods, and events that, because of the nature of the object, have no function. The Object Browser shows these properties, methods, and events as belonging to the <b>RemoteItem</b> object, but trying to use them will produce no effect.</para>
+      <para>The methods that do not work for the <b>RemoteItem</b> object include <b>Close</b>, <b>Copy</b>, <b>Display</b>, <b>Move</b>, and <b>Save</b>.</para>
+      <para>The properties that do not work for the <b>RemoteItem</b> object include <b>BillingInformation</b>, <b>Body</b>, <b>Categories</b>, <b>Companies</b>, and <b>Mileage</b>.</para>
+      <para>The events that do not work for the <b>RemoteItem</b> object include <b>Open</b>, <b>Close</b>, <b>Forward</b>, <b>Reply</b>, <b>ReplyAll</b>, and <b>Send</b>.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

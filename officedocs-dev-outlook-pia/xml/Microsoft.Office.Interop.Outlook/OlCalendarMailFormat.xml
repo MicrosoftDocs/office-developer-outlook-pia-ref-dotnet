@@ -1,0 +1,61 @@
+﻿<Type Name="OlCalendarMailFormat" FullName="Microsoft.Office.Interop.Outlook.OlCalendarMailFormat">
+  <TypeSignature Language="C#" Value="public enum OlCalendarMailFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlCalendarMailFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlCalendarMailFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlCalendarMailFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Determines the format of the calendar information in the body of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> method.</summary>
+    <remarks>
+      <para>For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87575">Sharing Calendars</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">How to: Export a Calendar using Payload Sharing</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCalendarMailFormatDailySchedule">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatDailySchedule = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatDailySchedule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The calendar information is formatted as a daily schedule of appointments, containing an hour-by-hour breakdown of the calendar, showing both free and busy time blocks along with working-hour information.  This layout is intended to help show recipients which times you are available.  </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCalendarMailFormatEventList">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatEventList = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatEventList" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatEventList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The calendar information is formatted as a list of events, containing a list of the calendar appointments without showing any time blocks.  This layout is intended to help show recipients the events scheduled for a given time period.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

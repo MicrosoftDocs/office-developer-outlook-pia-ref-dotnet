@@ -1,0 +1,137 @@
+﻿<Type Name="OlResponseStatus" FullName="Microsoft.Office.Interop.Outlook.OlResponseStatus">
+  <TypeSignature Language="C#" Value="public enum OlResponseStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlResponseStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlResponseStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlResponseStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indicates the response to a meeting request.</summary>
+    <remarks>
+      <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.MeetingResponseStatus" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ResponseStatus" /> properties.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olResponseAccepted">
+      <MemberSignature Language="C#" Value="olResponseAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseAccepted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseAccepted" />
+      <MemberSignature Language="VB.NET" Value="olResponseAccepted" />
+      <MemberSignature Language="C++ CLI" Value="olResponseAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Meeting accepted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olResponseDeclined">
+      <MemberSignature Language="C#" Value="olResponseDeclined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseDeclined = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseDeclined" />
+      <MemberSignature Language="VB.NET" Value="olResponseDeclined" />
+      <MemberSignature Language="C++ CLI" Value="olResponseDeclined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Meeting declined.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olResponseNone">
+      <MemberSignature Language="C#" Value="olResponseNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseNone" />
+      <MemberSignature Language="VB.NET" Value="olResponseNone" />
+      <MemberSignature Language="C++ CLI" Value="olResponseNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The appointment is a simple appointment and does not require a response.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olResponseNotResponded">
+      <MemberSignature Language="C#" Value="olResponseNotResponded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseNotResponded = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseNotResponded" />
+      <MemberSignature Language="VB.NET" Value="olResponseNotResponded" />
+      <MemberSignature Language="C++ CLI" Value="olResponseNotResponded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Recipient has not responded.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olResponseOrganized">
+      <MemberSignature Language="C#" Value="olResponseOrganized" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseOrganized = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseOrganized" />
+      <MemberSignature Language="VB.NET" Value="olResponseOrganized" />
+      <MemberSignature Language="C++ CLI" Value="olResponseOrganized" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The <b>AppointmentItem</b> is on the Organizer's calendar or the recipient is the <b>Organizer</b> of the meeting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olResponseTentative">
+      <MemberSignature Language="C#" Value="olResponseTentative" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlResponseStatus olResponseTentative = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlResponseStatus.olResponseTentative" />
+      <MemberSignature Language="VB.NET" Value="olResponseTentative" />
+      <MemberSignature Language="C++ CLI" Value="olResponseTentative" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Meeting tentatively accepted.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

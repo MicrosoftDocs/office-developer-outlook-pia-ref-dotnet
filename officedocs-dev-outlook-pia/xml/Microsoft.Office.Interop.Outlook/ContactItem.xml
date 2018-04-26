@@ -1,0 +1,38 @@
+﻿<Type Name="ContactItem" FullName="Microsoft.Office.Interop.Outlook.ContactItem">
+  <TypeSignature Language="C#" Value="public interface ContactItem : Microsoft.Office.Interop.Outlook._ContactItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContactItem implements class Microsoft.Office.Interop.Outlook._ContactItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ContactItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ContactItem&#xA;Implements _ContactItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ContactItem : Microsoft::Office::Interop::Outlook::_ContactItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ContactItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ContactItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063021-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a contact in a Contacts folder.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ContactItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>A contact can represent any person with whom you have any personal or professional contact.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />  method to create a <b>ContactItem</b> object that represents a new contact.</para>
+      <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a contact or a value used to match the default property of a contact, to return a single <b>ContactItem</b> object from a Contacts folder.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

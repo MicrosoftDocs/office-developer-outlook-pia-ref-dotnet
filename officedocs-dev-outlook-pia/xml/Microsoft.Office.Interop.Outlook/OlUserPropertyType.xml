@@ -1,0 +1,289 @@
+﻿<Type Name="OlUserPropertyType" FullName="Microsoft.Office.Interop.Outlook.OlUserPropertyType">
+  <TypeSignature Language="C#" Value="public enum OlUserPropertyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlUserPropertyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlUserPropertyType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlUserPropertyType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indicates the user property type.</summary>
+    <remarks>
+      <para>Used by the <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />, and <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> methods, and <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.FieldType" />, <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.Type" />, <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" />, and <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Type" /> properties.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCombination">
+      <MemberSignature Language="C#" Value="olCombination" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olCombination = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olCombination" />
+      <MemberSignature Language="VB.NET" Value="olCombination" />
+      <MemberSignature Language="C++ CLI" Value="olCombination" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>The property type is a combination of other types. It corresponds to the MAPI type PT_STRING8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCurrency">
+      <MemberSignature Language="C#" Value="olCurrency" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olCurrency = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olCurrency" />
+      <MemberSignature Language="VB.NET" Value="olCurrency" />
+      <MemberSignature Language="C++ CLI" Value="olCurrency" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>Represents a currency property of the Decimal type (decimal in C#). It corresponds to the MAPI type PT_CURRENCY.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDateTime">
+      <MemberSignature Language="C#" Value="olDateTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olDateTime = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olDateTime" />
+      <MemberSignature Language="VB.NET" Value="olDateTime" />
+      <MemberSignature Language="C++ CLI" Value="olDateTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Represents a DateTime property type. It corresponds to the MAPI type PT_SYSTIME.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDuration">
+      <MemberSignature Language="C#" Value="olDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olDuration = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olDuration" />
+      <MemberSignature Language="VB.NET" Value="olDuration" />
+      <MemberSignature Language="C++ CLI" Value="olDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Represents a time duration property type. It corresponds to the MAPI type PT_LONG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olEnumeration">
+      <MemberSignature Language="C#" Value="olEnumeration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olEnumeration = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />
+      <MemberSignature Language="VB.NET" Value="olEnumeration" />
+      <MemberSignature Language="C++ CLI" Value="olEnumeration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>Represents an enumeration property type. It corresponds to the MAPI type PT_LONG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olFormula">
+      <MemberSignature Language="C#" Value="olFormula" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olFormula = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olFormula" />
+      <MemberSignature Language="VB.NET" Value="olFormula" />
+      <MemberSignature Language="C++ CLI" Value="olFormula" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>Represents a formula property type. It corresponds to the MAPI type PT_STRING8. See <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Formula" /> property.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olInteger">
+      <MemberSignature Language="C#" Value="olInteger" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olInteger = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olInteger" />
+      <MemberSignature Language="VB.NET" Value="olInteger" />
+      <MemberSignature Language="C++ CLI" Value="olInteger" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>Represents an Integer number property type. It corresponds to the MAPI type PT_LONG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olKeywords">
+      <MemberSignature Language="C#" Value="olKeywords" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olKeywords = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olKeywords" />
+      <MemberSignature Language="VB.NET" Value="olKeywords" />
+      <MemberSignature Language="C++ CLI" Value="olKeywords" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Represents a <b>String</b> (<b>string</b> in C#) array property type used to store keywords. It corresponds to the MAPI type PT_MV_STRING8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olNumber">
+      <MemberSignature Language="C#" Value="olNumber" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olNumber = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olNumber" />
+      <MemberSignature Language="VB.NET" Value="olNumber" />
+      <MemberSignature Language="C++ CLI" Value="olNumber" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Represents a Double (double in C#) number property type. It corresponds to the MAPI type PT_LONG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOutlookInternal">
+      <MemberSignature Language="C#" Value="olOutlookInternal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olOutlookInternal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />
+      <MemberSignature Language="VB.NET" Value="olOutlookInternal" />
+      <MemberSignature Language="C++ CLI" Value="olOutlookInternal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Represents an Outlook internal property type.  </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olPercent">
+      <MemberSignature Language="C#" Value="olPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olPercent = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olPercent" />
+      <MemberSignature Language="VB.NET" Value="olPercent" />
+      <MemberSignature Language="C++ CLI" Value="olPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>Represents a Double (double in C#) number property type used to store a percentage. It corresponds to the MAPI type PT_LONG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olSmartFrom">
+      <MemberSignature Language="C#" Value="olSmartFrom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olSmartFrom = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />
+      <MemberSignature Language="VB.NET" Value="olSmartFrom" />
+      <MemberSignature Language="C++ CLI" Value="olSmartFrom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>Represents a smart from property type.  This property indicates that if the <b>From</b> property of an Outlook item is empty,  then the <b>To</b> property should be used instead.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olText">
+      <MemberSignature Language="C#" Value="olText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olText = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olText" />
+      <MemberSignature Language="VB.NET" Value="olText" />
+      <MemberSignature Language="C++ CLI" Value="olText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Represents a <b>String</b> (<b>string</b> in C#) property type. It corresponds to the MAPI type PT_STRING8.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olYesNo">
+      <MemberSignature Language="C#" Value="olYesNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType olYesNo = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olYesNo" />
+      <MemberSignature Language="VB.NET" Value="olYesNo" />
+      <MemberSignature Language="C++ CLI" Value="olYesNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Represents a yes/no (Boolean) property type. It corresponds to the MAPI type PT_BOOLEAN.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
