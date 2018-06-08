@@ -1,0 +1,28 @@
+<Type Name="_DRecipientControlEvents_Event" FullName="Microsoft.Office.Interop.Outlook._DRecipientControlEvents_Event">
+  <TypeSignature Language="C#" Value="public interface _DRecipientControlEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DRecipientControlEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DRecipientControlEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _DRecipientControlEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _DRecipientControlEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook._DRecipientControlEvents), typeof(Microsoft.Office.Interop.Outlook._DRecipientControlEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

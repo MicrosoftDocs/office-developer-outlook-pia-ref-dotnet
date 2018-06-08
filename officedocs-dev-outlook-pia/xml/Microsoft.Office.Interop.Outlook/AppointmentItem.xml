@@ -1,0 +1,40 @@
+﻿<Type Name="AppointmentItem" FullName="Microsoft.Office.Interop.Outlook.AppointmentItem">
+  <TypeSignature Language="C#" Value="public interface AppointmentItem : Microsoft.Office.Interop.Outlook._AppointmentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AppointmentItem implements class Microsoft.Office.Interop.Outlook._AppointmentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AppointmentItem&#xA;Implements _AppointmentItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AppointmentItem : Microsoft::Office::Interop::Outlook::_AppointmentItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AppointmentItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AppointmentItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063033-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a meeting, a one-time appointment, or a recurring appointment or meeting in the Calendar folder.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />  method to create an <b>AppointmentItem</b> object that represents a new appointment.</para>
+      <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of an appointment or a value used to match the default property of an appointment, to return a single <b>AppointmentItem</b> object from a Calendar folder.</para>
+      <para>You can also return an <b>AppointmentItem</b> object from a <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  object by using the <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />  method.</para>
+      <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <b>AppointmentItem</b> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
+      <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,80 @@
+﻿<Type Name="OlActionShowOn" FullName="Microsoft.Office.Interop.Outlook.OlActionShowOn">
+  <TypeSignature Language="C#" Value="public enum OlActionShowOn" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionShowOn extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlActionShowOn" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlActionShowOn" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Identifies where an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> is displayed as an available action.</summary>
+    <remarks>
+      <para>Displaying an action on a toolbar is only supported in versions of Outlook without the Microsoft Office Fluent ribbon, before Microsoft Office Outlook 2007.In versions of Outlook that contains the ribbon, custom actions are displayed only on the Custom Actions menu on the ribbon for an inspector, and on the context menu of an item.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDontShow">
+      <MemberSignature Language="C#" Value="olDontShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionShowOn olDontShow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionShowOn.olDontShow" />
+      <MemberSignature Language="VB.NET" Value="olDontShow" />
+      <MemberSignature Language="C++ CLI" Value="olDontShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionShowOn</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the Action will not be displayed on the menu or toolbar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMenu">
+      <MemberSignature Language="C#" Value="olMenu" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionShowOn olMenu = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionShowOn.olMenu" />
+      <MemberSignature Language="VB.NET" Value="olMenu" />
+      <MemberSignature Language="C++ CLI" Value="olMenu" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionShowOn</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the Action will be displayed as an available action on the menu.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMenuAndToolbar">
+      <MemberSignature Language="C#" Value="olMenuAndToolbar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionShowOn olMenuAndToolbar = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionShowOn.olMenuAndToolbar" />
+      <MemberSignature Language="VB.NET" Value="olMenuAndToolbar" />
+      <MemberSignature Language="C++ CLI" Value="olMenuAndToolbar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionShowOn</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the Action will be displayed as an available action on the menu and the toolbar.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

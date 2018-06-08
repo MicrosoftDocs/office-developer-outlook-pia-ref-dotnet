@@ -1,0 +1,46 @@
+﻿<Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
+  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ConversationHeader : Microsoft::Office::Interop::Outlook::_ConversationHeader" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ConversationHeader</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ConversationHeaderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063107-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a Microsoft Outlook conversation header in a Conversation view.</summary>
+    <remarks>
+      <para>In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</para>
+      <list type="bullet">
+        <item>
+          <para>An item in a thread that contains only a single item.</para>
+        </item>
+        <item>
+          <para>A group header for a conversation that contains multiple items.</para>
+        </item>
+        <item>
+          <para>The first item in a conversation that contains a single thread.</para>
+        </item>
+        <item>
+          <para>The first item in a split conversation.</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

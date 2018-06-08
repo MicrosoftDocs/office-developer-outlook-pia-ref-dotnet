@@ -1,0 +1,38 @@
+﻿<Type Name="TaskRequestUpdateItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestUpdateItem">
+  <TypeSignature Language="C#" Value="public interface TaskRequestUpdateItem : Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestUpdateItem implements class Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestUpdateItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestUpdateItem&#xA;Implements _TaskRequestUpdateItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TaskRequestUpdateItem : Microsoft::Office::Interop::Outlook::_TaskRequestUpdateItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TaskRequestUpdateItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063037-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a response to a <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" />  sent by the initiating user.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestUpdateItemClass" />.</para>
+      <para>If the delegated user updates the task by changing properties such as the <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DueDate" />  or the <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Status" />, and then sends it, the associated <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />  is received by the delegator as a <b>TaskRequestUpdateItem</b> object.</para>
+      <para>Unlike other Microsoft Outlook objects, you cannot create this object.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestUpdateItem.GetAssociatedTask(System.Boolean)" />  method to return the <b>TaskItem</b> object that is associated with this <b>TaskRequestUpdateItem</b>. Work directly with the <b>TaskItem</b> object</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

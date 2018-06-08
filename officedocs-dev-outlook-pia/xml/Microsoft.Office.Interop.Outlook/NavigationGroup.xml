@@ -1,0 +1,35 @@
+﻿<Type Name="NavigationGroup" FullName="Microsoft.Office.Interop.Outlook.NavigationGroup">
+  <TypeSignature Language="C#" Value="public interface NavigationGroup : Microsoft.Office.Interop.Outlook._NavigationGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationGroup implements class Microsoft.Office.Interop.Outlook._NavigationGroup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationGroup&#xA;Implements _NavigationGroup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationGroup : Microsoft::Office::Interop::Outlook::_NavigationGroup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationGroup</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationGroupClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a navigation group displayed by a navigation module in the Navigation Pane.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._NavigationGroup" />. </para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroups.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a <b>NavigationGroup</b> object from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> collection of a parent navigation module, such as a <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object. Use the <see cref="M:Microsoft.Office.Interop.Outlook._NavigationGroups.Create(System.String)" /> method of the <b>NavigationGroups</b> collection to create a new <b>NavigationGroup</b> object.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" /> property to determine the group type of the  navigation group and the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Position" /> property to return or set the display position of the navigation group within the Navigation Pane. You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> property to return or set the display name of the navigation group within the Navigation Pane.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" /> property to return a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> object containing the navigation folders for the specified navigation group.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

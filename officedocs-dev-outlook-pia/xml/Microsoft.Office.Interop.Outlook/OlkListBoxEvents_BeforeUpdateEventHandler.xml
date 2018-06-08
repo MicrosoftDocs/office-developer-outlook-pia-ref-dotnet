@@ -1,0 +1,34 @@
+﻿<Type Name="OlkListBoxEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkListBoxEvents_BeforeUpdateEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void OlkListBoxEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkListBoxEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkListBoxEvents_BeforeUpdateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkListBoxEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkListBoxEvents_BeforeUpdateEventHandler(bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Cancel">
+      <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the operation will not be completed and the property bound to the control will not be updated.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

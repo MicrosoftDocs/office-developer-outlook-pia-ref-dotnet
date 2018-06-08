@@ -1,0 +1,80 @@
+﻿<Type Name="OlShowItemCount" FullName="Microsoft.Office.Interop.Outlook.OlShowItemCount">
+  <TypeSignature Language="C#" Value="public enum OlShowItemCount" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlShowItemCount extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlShowItemCount" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlShowItemCount" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlShowItemCount" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indicates which type of count for Microsoft Outlook items is displayed for folders in the Outlook Navigation Pane.</summary>
+    <remarks>
+      <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.ShowItemCount" /> property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olNoItemCount">
+      <MemberSignature Language="C#" Value="olNoItemCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlShowItemCount olNoItemCount = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlShowItemCount.olNoItemCount" />
+      <MemberSignature Language="VB.NET" Value="olNoItemCount" />
+      <MemberSignature Language="C++ CLI" Value="olNoItemCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlShowItemCount</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No item count displayed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olShowTotalItemCount">
+      <MemberSignature Language="C#" Value="olShowTotalItemCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlShowItemCount olShowTotalItemCount = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlShowItemCount.olShowTotalItemCount" />
+      <MemberSignature Language="VB.NET" Value="olShowTotalItemCount" />
+      <MemberSignature Language="C++ CLI" Value="olShowTotalItemCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlShowItemCount</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Shows count of total number of items.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olShowUnreadItemCount">
+      <MemberSignature Language="C#" Value="olShowUnreadItemCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlShowItemCount olShowUnreadItemCount = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlShowItemCount.olShowUnreadItemCount" />
+      <MemberSignature Language="VB.NET" Value="olShowUnreadItemCount" />
+      <MemberSignature Language="C++ CLI" Value="olShowUnreadItemCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlShowItemCount</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Shows count of unread items.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,37 @@
+﻿<Type Name="Folders" FullName="Microsoft.Office.Interop.Outlook.Folders">
+  <TypeSignature Language="C#" Value="public interface Folders : Microsoft.Office.Interop.Outlook._Folders, Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Folders implements class Microsoft.Office.Interop.Outlook._Folders, class Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Folders" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Folders&#xA;Implements _Folders, FoldersEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Folders : Microsoft::Office::Interop::Outlook::_Folders, Microsoft::Office::Interop::Outlook::FoldersEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Folders</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.FoldersEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FoldersClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063040-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  objects that represent all the available Outlook folders in a specific subset at one level of the folder tree.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Folders" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" />  property to return the <b>Folders</b> object from a <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object or another <b>Folder</b> object.</para>
+      <para>Use <b>Folders</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number, to return a single <b>Folder</b> object. Folder names are case-sensitive.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,172 @@
+﻿<Type Name="OlDefaultSelectNamesDisplayMode" FullName="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode">
+  <TypeSignature Language="C#" Value="public enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlDefaultSelectNamesDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlDefaultSelectNamesDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the default caption, the number of buttons, the button labels, and the address lists to display in the Select Names dialog box without requiring a resource file for any localized caption and labels.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultDelegates">
+      <MemberSignature Language="C#" Value="olDefaultDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultDelegates = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultDelegates" />
+      <MemberSignature Language="VB.NET" Value="olDefaultDelegates" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Displays one edit box for To recipients, uses localized string representing "Add" for the To button, and localized string representing "Add Users" for the caption. CcLabel and BccLabel are set to an empty string. Sets <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> to  True and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMail">
+      <MemberSignature Language="C#" Value="olDefaultMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMail" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMail" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Displays three edit boxes for To, Cc, and Bcc recipients, uses localized strings representing "To", "Cc", and "Bcc" for To, Cc, and Bcc buttons, and localized string representing "Select Names" for the caption. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olToCcBcc.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMeeting">
+      <MemberSignature Language="C#" Value="olDefaultMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMeeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMeeting" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Displays three edit boxes for Required, Optional, and Resource recipients, uses localized strings representing "Required", "Optional", and "Resources" for the To, Cc, and Bcc buttons, and localized string representing "Select Attendees and Resources" for the caption. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olToCcBcc.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMembers">
+      <MemberSignature Language="C#" Value="olDefaultMembers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMembers = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMembers" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMembers" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMembers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Displays one edit box for To recipients, uses localized string representing "To" for the To button, and localized string representing "Select Members" for caption. CcLabel and BccLabel are set to an empty string. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultPickRooms">
+      <MemberSignature Language="C#" Value="olDefaultPickRooms" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultPickRooms = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultPickRooms" />
+      <MemberSignature Language="VB.NET" Value="olDefaultPickRooms" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultPickRooms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Displays one edit box for Resource recipients, uses localized string representing "Rooms" for To button, and localized string representing "Select Rooms" for caption. CcLabel and BccLabel are set to an empty string. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olShowTo. <b>InitialDisplayList</b> is set to the Global Address List.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSharingRequest">
+      <MemberSignature Language="C#" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSharingRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSharingRequest" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSharingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Displays one edit box for To recipients, uses localized string representing "To" for To button, and localized string representing "Select Names" for caption. CcLabel and BccLabel are set to an empty string. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSingleName">
+      <MemberSignature Language="C#" Value="olDefaultSingleName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSingleName = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSingleName" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSingleName" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSingleName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Displays no edit boxes for recipients, uses localized string representing "Select Name" for caption. ToLabel, CcLabel, and Bcc label are set to an empty string. Sets <b>AllowMultipleSelection</b> to False and <b>NumberOfRecipientSelectors</b> to olNone. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultTask">
+      <MemberSignature Language="C#" Value="olDefaultTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultTask = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultTask" />
+      <MemberSignature Language="VB.NET" Value="olDefaultTask" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Displays one edit box for To recipients, uses localized string representing "To" for To button, and localized string representing "Select Task Recipient" for caption. CcLabel and BccLabel are set to an empty string. Sets <b>AllowMultipleSelection</b> to True and <b>NumberOfRecipientSelectors</b> to olTo.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

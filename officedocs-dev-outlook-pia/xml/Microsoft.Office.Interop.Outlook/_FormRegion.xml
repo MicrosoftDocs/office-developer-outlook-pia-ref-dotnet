@@ -1,0 +1,622 @@
+<Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
+  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _FormRegion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006305A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Detail">
+      <MemberSignature Language="C#" Value="public string Detail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Detail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Detail" />
+      <MemberSignature Language="VB.NET" Value="Public Property Detail As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Detail { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64309)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text displayed at runtime in the header after the display name of an adjoining form region. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Detail</b> property is displayed for adjoining form regions only. It is ignored for separate form regions.</para>
+          <para>The <b>Detail</b> property is optional for an adjoining form region. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the form region. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The display name is optional for a form region. If you have defined a value for the &lt;formRegionName&gt; tag in the corresponding form region manifest XML file, this value will map to the value of the <b>DisplayName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
+          <para>The value of the <b>DisplayName</b> property is displayed at runtime in the Show tab of the Microsoft Office Fluent ribbon for a separate form region, or in the header of an adjoining form region.  It is used for the default locale, and can be overridden by the &lt;stringOverride&gt; tag in the corresponding form region manifest XML file. The string is case-insensitive, and its maximum length is 256 characters.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64538)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether to use the automatic layout resizing feature when designing form regions in the forms designer. Read/write</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The automatic layout resizing feature in the forms designer recalculates the form layout dynamically as the form is resized. This feature is only available to form regions in the forms designer.</para>
+          <para>When this property is <b>True</b>, the forms designer performs automatic layout resizing.  When this property is <b>False</b>, the forms designer does not perform automatic layout resizing.  The default value is <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Form">
+      <MemberSignature Language="C#" Value="public object Form { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Form" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Form" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Form As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Form { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64313)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> representing the <b>MSForms.UserForm</b> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormRegionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.FormRegionMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormRegionMode As OlFormRegionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlFormRegionMode FormRegionMode { Microsoft::Office::Interop::Outlook::OlFormRegionMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64308)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>OlFormRegionMode</b> constant that indicates whether the form region is in a read page, compose page, or Reading Pane. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the user has a mail item in the Reading Pane, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> property to further determine if the user is in the edit mode or the read mode of the Reading Pane. A mail item is displayed differently in the Reading Pane if it is in the edit mode (the mail item is in the Draft folder) than if it is in the read mode (the mail item is in the Inbox or Sent folder).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector Inspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector Inspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Inspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Inspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ Inspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object representing the Inspector that hosts the form region. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the form region is displayed in the Reading Pane.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalName">
+      <MemberSignature Language="C#" Value="public string InternalName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternalName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> (<b>string</b> in C#) that represents the internal programmatic name of the form region as defined in the manifest for the form region. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The internal name is required for a form region. The &lt;name&gt; tag in the corresponding form region manifest XML file maps to the value of the <b>InternalName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
+          <para>The value of the <b>InternalName</b> property is used by the add-in or Microsoft Outlook to refer to the form region, for example, to determine which form region is being loaded or to load strings from the localized string resources. The <b>InternalName</b> property supports only ASCII characters. The string is case-insensitive, and its maximum length is 256 characters.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExpanded">
+      <MemberSignature Language="C#" Value="public bool IsExpanded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExpanded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.IsExpanded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExpanded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExpanded { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the form region is expanded. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies to adjoining form regions only and is ignored for separate form regions.</para>
+          <para>Outlook always first loads a form region in an expanded state and sets <b>IsExpanded</b> to <b>True</b>. If the initial state of the form region is to be collapsed, then Outlook immediately closes the form region, fires the <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> event with the <paramref name="Expand" /> parameter being <b>False</b>, and sets  <b>IsExpanded</b> to <b>False</b>. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64096)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> corresponding to the Outlook item bound to the form region. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public int Language { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Language" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Language As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Language { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the LCID for the current language. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent <b>Object</b> of the form region. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reflow">
+      <MemberSignature Language="C#" Value="public void Reflow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reflow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Reflow" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reflow ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reflow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Causes Outlook to recalculate the height of an adjoining form region to display all  the visible controls in the form region.</summary>
+        <remarks>
+          <para>The <b>Reflow</b> method only applies to adjoining form regions. No action occurs for separate form regions.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Makes the form region the active form region such that it becomes visible.</summary>
+        <remarks>
+          <para>If the form region is an adjoining form region, then <b>Select</b> will expand the form region (if it is not already expanded) and set focus on the first control on that page. If the form region is a separate form region and is not already the active page, then <b>Select</b> will swtich to the form region page and set focus on the first control on that page. If the form region is a separate form region and is already the active page, then nothing happens.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetControlItemProperty">
+      <MemberSignature Language="C#" Value="public void SetControlItemProperty (object Control, string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetControlItemProperty([in]object Control, [in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegion.SetControlItemProperty(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetControlItemProperty (Control As Object, PropertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetControlItemProperty(System::Object ^ Control, System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="System.Object" />
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Control">A control in the form region to which the property specified by <paramref name="PropertyName" /> will be bound.</param>
+        <param name="PropertyName">The name of the property that will be bound to the control.</param>
+        <summary>Binds an explicit  built-in property or a custom property to a control in the form region.</summary>
+        <remarks>
+          <para>You can use this method to bind an explicit built-in property or a custom property to a control. You must reference the property by its string name, for example, <b>Subject</b>, and not by namespace, for example, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+          <para>The <paramref name="PropertyName" /> parameter is not case-sensitive. For example, <b>SetControlItemProperty</b> interprets an argument, <b>CustomerId</b>, to be the same as <b>CustomerID</b> and binds the specified control to the built-in <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> property.</para>
+          <para>Other than using the <b>SetControlItemProperty</b> method of a <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> object, you can also use code similar to the following to bind a property such as the  <b>Subject</b> property to a control:</para>
+          <code>myPage.Controls("bar").ItemProperty = "subject"</code>
+          <code>myPage.Controls("bar").ItemProperty = "subject";</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressControlReplacement">
+      <MemberSignature Language="C#" Value="public bool SuppressControlReplacement { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuppressControlReplacement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.SuppressControlReplacement" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressControlReplacement As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SuppressControlReplacement { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that disables Outlook from automatically replacing  a Forms 2.0 control by  a themed Outlook control at design time and runtime. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For more information on Outlook automatically replacing a Forms 2.0 control by  a themed Outlook counterpart control, see <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Controls in a Custom Form</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._FormRegion.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the form region is visible or hidden. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True</b> if the form region is visible; <b>False</b> if it is hidden. The default is <b>True</b>. </para>
+          <para>Use the <b>Visible</b> property to control access to information without displaying it in a form region.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

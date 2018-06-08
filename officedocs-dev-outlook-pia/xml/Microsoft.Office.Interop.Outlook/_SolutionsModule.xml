@@ -1,0 +1,337 @@
+<Type Name="_SolutionsModule" FullName="Microsoft.Office.Interop.Outlook._SolutionsModule">
+  <TypeSignature Language="C#" Value="public interface _SolutionsModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SolutionsModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _SolutionsModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _SolutionsModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630FF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddSolution">
+      <MemberSignature Language="C#" Value="public void AddSolution (Microsoft.Office.Interop.Outlook.MAPIFolder Solution, Microsoft.Office.Interop.Outlook.OlSolutionScope Scope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddSolution([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Solution, [in]valuetype Microsoft.Office.Interop.Outlook.OlSolutionScope Scope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SolutionsModule.AddSolution(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.OlSolutionScope)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddSolution (Solution As MAPIFolder, Scope As OlSolutionScope)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSolution(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Solution, Microsoft::Office::Interop::Outlook::OlSolutionScope Scope);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64574)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Solution" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="Scope" Type="Microsoft.Office.Interop.Outlook.OlSolutionScope" />
+      </Parameters>
+      <Docs>
+        <param name="Solution">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the solution root folder to add to the <b>SolutionsModule</b>.</param>
+        <param name="Scope">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" /> enumeration that specifies whether to display the folders that are in the solution only in the <b>Solutions</b> module and the <b>Folder</b> List, or to display them in their respective default modules in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> as well.</param>
+        <summary>Adds a solution root folder and its subfolders to the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> module.</summary>
+        <remarks>
+          <para>If the <b>AddSolution</b> method succeeds and no solution root folder previously existed under the <b>Solutions</b> module, Microsoft Outlook displays the <b>Solutions</b> module in the Navigation Pane.</para>
+          <para>You cannot add the following folders to the <b>Solutions</b> module as a solution root folder:</para>
+          <list type="bullet">
+            <item>
+              <para>A folder that Outlook displays on the Navigation Pane, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeration.</para>
+            </item>
+            <item>
+              <para>A special folder, as defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeration.</para>
+            </item>
+            <item>
+              <para>Any folder on a Microsoft Exchange Server public folder store. The <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> property on the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object for this folder is <b>olExchangePublicFolder</b>.</para>
+            </item>
+            <item>
+              <para>A hidden folder. A hidden folder is one whose MAPI property, <b>PR_ATTR_HIDDEN</b>, is <b>True</b> or one that is not in the IPM Subtree.</para>
+            </item>
+          </list>
+          <para>This method also returns an error if the folder that you specify already exists as a root folder or a subfolder in the <b>Solutions</b> module, or if the folder is a parent folder of a folder in the <b>Solutions</b> module.</para>
+          <para>If the <paramref name="Scope" /> parameter is set to <b>olShowInDefaultModules</b> of the <b>OlSolutionScope</b> enumeration, the solution root and its subfolders are displayed in their respective default modules as well as the <b>Solutions</b> module. If the <paramref name="Scope" /> parameter is set to <b>olHideInDefaultModules</b>, the solution root and its subfolders are displayed in the <b>Solutions</b> module.</para>
+          <para>
+            <b>Solution</b> folders are always displayed in the <b>Folder List</b> module.</para>
+          <para>By default, Outlook displays the <b>Solutions</b> module after the <b>Tasks</b> module, provided that the navigation modules are in the default order – Mail, Calendar, Contacts, and Tasks. If the Navigation Pane is expanded, the <b>Solutions</b> module is also initially displayed as an expanded module. If the <b>Tasks</b> module is not displayed, the <b>Solutions</b> module is displayed after the last expanded module in the Navigation Pane.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:System.String" /> value (<b>string</b> in C#) that represents the localized display name for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The display name of the <b>Solutions</b> module can be customized if there is only one solution root folder under the <b>Solutions</b> module. If there are multiple solution root folders, the name reverts back to <b>Solutions</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationModuleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlNavigationModuleType NavigationModuleType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType NavigationModuleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.NavigationModuleType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationModuleType As OlNavigationModuleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlNavigationModuleType NavigationModuleType { Microsoft::Office::Interop::Outlook::OlNavigationModuleType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constant that represents the navigation module type for the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For the <b>SolutionsModule</b> object, this property returns the value <b>olModuleSolutions</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The parent of a <b>SolutionsModule</b> object returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64442)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) that represents the ordinal position of the <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object when it is displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property can only be set to a value between 1 and 9. An error occurs if you attempt to set this property to a value outside that range. If no solutions exist in the <b>Solutions</b> module, setting or getting the <b>Position</b> property also raises an error.</para>
+          <para>Changing the value of this property for a given <b>SolutionsModule</b> object changes the <b>Position</b> values of other navigation modules in a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> collection, depending on the relative change between the new value and the original value. </para>
+          <list type="bullet">
+            <item>
+              <para>If the new value is less than the original value, the specified <b>SolutionsModule</b> object moves up to the new position and the other navigation modules that are already at or below that new position move down.</para>
+            </item>
+            <item>
+              <para>If the new value is greater than the original value, the specified <b>SolutionsModule</b> object moves down to the new position and the other navigation modules that are between the old position and the new position move up, filling the old position.</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
+          <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SolutionsModule.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64443)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> in C#) value that indicates whether the <b>Solutions</b> module is displayed in the Navigation Pane. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If there are no solutions under the <b>Solutions</b> module, setting or getting the <b>Visible</b> property raises an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

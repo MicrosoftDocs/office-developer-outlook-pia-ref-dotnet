@@ -1,0 +1,103 @@
+<Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
+  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _DDocSiteControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006F026-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A control that displays the body of an Outlook item.</summary>
+    <remarks>
+      <para>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this interface to access the object and its members; refer to this interface for information about them.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public sbyte ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadOnly As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte ReadOnly { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that specifies whether the body displayed in the control can only be viewed and cannot be modified. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True</b> to indicate that the control only displays the body and does not support its modification; <b>False</b> to indicate that the control supports both viewing and modifying of the body of the item.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressAttachments">
+      <MemberSignature Language="C#" Value="public sbyte SuppressAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 SuppressAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.SuppressAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressAttachments As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte SuppressAttachments { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that specified whether attachments of the Outlook item should not be displayed in the control. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies only to files attached to the Outlook item in the attachment box and does not apply to files attached inline as embedded items in the Outlook item. </para>
+          <para>
+            <b>True</b> to indicate that the control does not display attachments of the item; <b>False</b> to indicate that the control supports displaying of the attachments of the item.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

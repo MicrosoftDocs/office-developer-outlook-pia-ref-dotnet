@@ -1,0 +1,34 @@
+﻿<Type Name="CalendarModule" FullName="Microsoft.Office.Interop.Outlook.CalendarModule">
+  <TypeSignature Language="C#" Value="public interface CalendarModule : Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarModule implements class Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalendarModule&#xA;Implements _CalendarModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalendarModule : Microsoft::Office::Interop::Outlook::_CalendarModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CalendarModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CalendarModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630EA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the Calendar navigation module in the Navigation Pane of an explorer.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._CalendarModule" />.</para>
+      <para>The <b>CalendarModule</b> object, derived from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object, provides access to the navigation groups contained in the Calendar navigation module of the Navigation Pane for an explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> method or the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> property (<b>this</b> in C#) of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection for the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object to retrieve a <b>NavigationModule</b> object, then use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> property of the <b>NavigationModule</b> object to retrieve the navigation module type. If the <b>NavigationModuleType</b> property is set to <b>olModuleCalendar</b>, you can then cast the <b>NavigationModule</b> object reference as a <b>CalendarModule</b> object to access the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" /> property for that navigation module.</para>
+      <para>You can use the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Visible" /> property to determine if the navigation module is visible and the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Position" /> property to return or set the display position of the navigation module within the Navigation Pane. You can use the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Name" /> property to return the display name of the Calendar navigation module within the Navigation Pane.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

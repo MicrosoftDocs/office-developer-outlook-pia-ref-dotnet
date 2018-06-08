@@ -1,0 +1,51 @@
+﻿<Type Name="OlkCheckBoxEvents_MouseMoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_MouseMoveEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void OlkCheckBoxEvents_MouseMoveEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkCheckBoxEvents_MouseMoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCheckBoxEvents_MouseMoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkCheckBoxEvents_MouseMoveEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkCheckBoxEvents_MouseMoveEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="Microsoft.Office.Interop.Outlook.OlMouseButton" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+    <Parameter Name="X" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_XPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+    <Parameter Name="Y" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_YPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</param>
+    <param name="Shift">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</param>
+    <param name="X">Identifies the location of the mouse cursor on the X-axis relative to the  form.</param>
+    <param name="Y">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

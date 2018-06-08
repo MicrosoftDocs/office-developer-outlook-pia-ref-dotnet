@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "Microsoft.Vbe.Interop",
+    "OFFICE",
+    "stdole"
+  ],
+  "outlook-pia": [
+    "Microsoft.Office.Interop.Outlook"
+  ]
+}

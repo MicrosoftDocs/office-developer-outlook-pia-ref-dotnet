@@ -1,0 +1,106 @@
+﻿<Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
+  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PropertyPage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006307E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a custom property page in the Options dialog box or in the folder Properties dialog box.</summary>
+    <remarks>
+      <para>Outlook uses this object to allow a custom property page to interact with the Apply button in the dialog box.</para>
+      <para>The <b>PropertyPage</b> object is an abstract object. That is, the <b>PropertyPage</b> object in the Microsoft Outlook Object Library contains no implementation code. Instead, it is provided as a template to help you implement the object in Microsoft Visual Basic. This provides a predefined set of interfaces that Outlook can use to determine whether your custom property page has changed and to notify your program that the user has clicked the Apply or OK button. (If your custom property page does not rely on the Apply button, then you do not need to implement the <b>PropertyPage</b> object.)</para>
+      <para>A custom property page is an ActiveX control that is displayed by Outlook in the Options dialog box or in the folder Properties dialog box when the user clicks on the custom property page’s tab. To implement the <b>PropertyPage</b> object in Visual Basic .NET, the module that contains the implementation code must contain the following Implements statement.</para>
+      <code>Implements Outlook.PropertyPage</code>
+      <para>The module must also contain procedures that implement the properties and methods of the <b>PropertyPage</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Applies the changes that have been made in a custom property page.</summary>
+        <remarks>
+          <para>Because the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> is an abstract object that is implemented in your application (rather than by Microsoft Outlook itself), the implementation of the <b>Apply</b> method resembles an event procedure in your program code. That is, you write the code that implements the method in much the same way you would write an event procedure. In other words, Outlook calls the <b>Apply</b> method to notify your program that the user has taken an action in the dialog box displaying the custom property page that requires your program to apply the property values changed by the user.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dirty">
+      <MemberSignature Language="C#" Value="public bool Dirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.PropertyPage.Dirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the contents of a custom property page have been altered. The ActiveX control that implements the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" />  object sets the value of this property, and Microsoft Outlook queries this in response to the <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" />  method of a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />  object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPageInfo">
+      <MemberSignature Language="C#" Value="public void GetPageInfo (out string HelpFile, out int HelpContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetPageInfo([out] string&amp; HelpFile, [out] int32&amp; HelpContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.GetPageInfo(System.String@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetPageInfo (ByRef HelpFile As String, ByRef HelpContext As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetPageInfo([Runtime::InteropServices::Out] System::String ^ % HelpFile, [Runtime::InteropServices::Out] int % HelpContext);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpFile" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="HelpContext" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="HelpFile">Specifies the Help file associated with the property page.</param>
+        <param name="HelpContext">Specifies the context ID of the Help topic associated with the property page.</param>
+        <summary>Returns Help information about a custom property page.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,37 @@
+﻿<Type Name="MeetingItem" FullName="Microsoft.Office.Interop.Outlook.MeetingItem">
+  <TypeSignature Language="C#" Value="public interface MeetingItem : Microsoft.Office.Interop.Outlook._MeetingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MeetingItem implements class Microsoft.Office.Interop.Outlook._MeetingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MeetingItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MeetingItem&#xA;Implements _MeetingItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MeetingItem : Microsoft::Office::Interop::Outlook::_MeetingItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._MeetingItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.MeetingItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063062-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a change to the recipient's Calendar folder initiated by another party or as a result of a group action.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._MeetingItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Unlike other Microsoft Outlook objects, you cannot create this object. It is created automatically when you set the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" />  property of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object to <b>olMeeting</b> and send it to one or more users. They receive it in their inboxes as a <b>MeetingItem</b>.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" />  method to return the <b>AppointmentItem</b> object associated with a <b>MeetingItem</b> object, and work directly with the <b>AppointmentItem</b> object to respond to the request.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,39 @@
+﻿<Type Name="SyncObjectEvents_ProgressEventHandler" FullName="Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, string Description, int Value, int Max);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncObjectEvents_ProgressEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyncObjectEvents_ProgressEventHandler(State As OlSyncState, Description As String, Value As Integer, Max As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, System::String ^ Description, int Value, int Max);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="State" Type="Microsoft.Office.Interop.Outlook.OlSyncState" />
+    <Parameter Name="Description" Type="System.String" />
+    <Parameter Name="Value" Type="System.Int32" />
+    <Parameter Name="Max" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="State">A value that identifies the current state of the synchronization process.</param>
+    <param name="Description">A textual description of the current state of the synchronization process.</param>
+    <param name="Value">Specifies the current value of the synchronization process (such as the number of items synchronized).</param>
+    <param name="Max">The maximum that <paramref name="Value" /> can reach. The ratio of <paramref name="Value" />  to <paramref name="Max" /> represents the percent complete of the synchronization process.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

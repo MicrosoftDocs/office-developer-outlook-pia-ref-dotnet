@@ -1,0 +1,480 @@
+<Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
+  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Rule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object. For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Rule" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleActions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleActions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As RuleActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleActions ^ Actions { Microsoft::Office::Interop::Outlook::RuleActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64272)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64272)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />  collection object that represents all the available rule actions for the rule. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can enumerate and enable rules with any rule action that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule actions, and not any rule action that the Rules and Alerts Wizard supports. For more information on rule action support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
+          <para>Through the <b>Actions</b> property, each rule is associated with a <b>RuleActions</b> object. The <b>RuleActions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule actions that are enabled in the rule will have an enabled rule action in the <b>RuleActions</b> collection. Rule actions that are not enabled in the rule will have a rule action in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> property set to <b>False</b>. Rule actions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleActions</b> collection for an existing rule, but because the <b>RuleActions</b> collection is fixed, you cannot create a rule and add such an action to the associated <b>RuleActions</b> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleConditions Conditions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleConditions Conditions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As RuleConditions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleConditions ^ Conditions { Microsoft::Office::Interop::Outlook::RuleConditions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64297)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64297)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule conditions for the rule. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A condition for a rule states the condition under which the rule should be applied. Both the <b>Conditions</b> and <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</para>
+          <para>Programmatically you can enumerate and enable rules with any rule condition that the Rules and Alerts Wizard support, but you can  create rules that have only the most commonly used rule conditions, and not any rule condition that the Rules and Alerts Wizard supports. For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+          <para>Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object. The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule conditions that are enabled in the rule will have an enabled rule condition in the <b>RuleConditions</b> collection. Rule conditions that are not enabled in the rule will have a rule condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>. Rule conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such a condition to the associated <b>RuleConditions</b> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines if the rule is to be applied. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <b>Enabled</b> property of a rule does not guarantee that the rule will be enabled. The rule is enabled only after <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> executes successfully.</para>
+          <para>Using <b>Rule.Enabled</b> and <b>Rules.Save</b> applies the rule consistently and persists the rules beyond the current session. Enabling a rule (that has been saved successfully) ensures that the rule will be applied. If it is a local client rule, the rule will be applied when Outlook is running, and if the rule is a server-based rule, it will be applied regardless of whether Outlook is running. If you do not enable the  rule, then the rule is defined, but it will not be applied. However, you can use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as an one-off operation regardless of whether the rule is  enabled.  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleConditions Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleConditions Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As RuleConditions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleConditions ^ Exceptions { Microsoft::Office::Interop::Outlook::RuleConditions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64307)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64307)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />  collection object that represents all the available rule exception conditions for the rule. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>An exception condition for a rule states the condition under which the rule should not be applied. Both the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> and <b>Exceptions</b> properties share the same pool of conditions and return a corresponding  <b>RuleConditions</b> collection object.</para>
+          <para>You can enumerate and enable rules with any rule exception condition that the Rules and Alerts Wizard support, but you can programmatically  create rules that have only the most commonly used rule exception conditions, and not any rule exception condition that the Rules and Alerts Wizard supports. For more information on rule condition support, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+          <para>Through the <b>Conditions</b> property, each rule is associated with a <b>RuleConditions</b> object. The <b>RuleConditions</b> collection is a fixed object - you cannot add or remove items from this collection. Rule exception conditions that are enabled in the rule will have an enabled rule exception condition in the <b>RuleConditions</b> collection. Rule exception conditions that are not enabled in the rule will have a rule exception condition in this collection that has the <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> property set to <b>False</b>. Rule exception conditions that are not supported during programmatic rule creation can only be enumerated in the <b>RuleConditions</b> collection for an existing rule, but because the <b>RuleConditions</b> collection is fixed, you cannot create a rule and add such an exception condition to the associated <b>RuleConditions</b> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute (object ShowProgress, object Folder, object IncludeSubfolders, object RuleExecuteOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute([in]object ShowProgress, [in]object Folder, [in]object IncludeSubfolders, [in]object RuleExecuteOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute (Optional ShowProgress As Object, Optional Folder As Object, Optional IncludeSubfolders As Object, Optional RuleExecuteOption As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64270)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ShowProgress" Type="System.Object" />
+        <Parameter Name="Folder" Type="System.Object" />
+        <Parameter Name="IncludeSubfolders" Type="System.Object" />
+        <Parameter Name="RuleExecuteOption" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ShowProgress">
+          <b>True</b> to display the progress dialog box when the rule is executed, <b>False</b> to run the rule without displaying the dialog box.</param>
+        <param name="Folder">Represents the folder where the rule will be applied.</param>
+        <param name="IncludeSubfolders">
+          <b>True</b> to apply the rule to subfolders of the folder indicated by the Folder parameter; <b>False</b> to apply the rule only to that folder but not its subfolders.</param>
+        <param name="RuleExecuteOption">Represents whether to apply the rule to read, unread, or all messages in the folder or folders specified by the Folder and IncludeSubfolders parameters.</param>
+        <summary>Applies a rule as an one-off operation.</summary>
+        <remarks>
+          <para>Use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> to apply a rule as a one-off operation regardless of whether <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> is <b>True</b>. Use <b>Rule.Enabled</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> if you want to apply the rule consistently and persist the rules beyond the current session.</para>
+          <para>The parameters to the <b>Execute</b> method are optional. If you do not specify any parameters, the rule will be applied to all messages in the Inbox but not to the subfolders of the Inbox. The default values for the optional arguments are as follows: </para>
+          <list type="table">
+            <item>
+              <description>Parameter</description>
+              <description>Default Value</description>
+            </item>
+            <item>
+              <description>ShowProgress</description>
+              <description>False</description>
+            </item>
+            <item>
+              <description>Folder</description>
+              <description>Inbox</description>
+            </item>
+            <item>
+              <description>IncludeSubfolders</description>
+              <description>False</description>
+            </item>
+            <item>
+              <description>RuleExecuteOption</description>
+              <description>
+                <b>OlRuleExecuteOption.olRuleExecuteAllMessages</b>
+              </description>
+            </item>
+          </list>
+          <para>If <paramref name="ShowProgress" /> is <b>True</b> and the user cancels the progress dialog box, rule execution is canceled in the same manner as if the user had canceled rule execution through the Rules and Alerts Wizard. Execute returns an error when the user cancels the progress dialog.</para>
+          <para>If you plan to show a custom progress user interface instead of using the progress dialog box, you should be aware that there are no events that indicate when rule execution starts and stops. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecutionOrder">
+      <MemberSignature Language="C#" Value="public int ExecutionOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExecutionOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExecutionOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ExecutionOrder { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64267)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the order of execution of the rule among other rules in the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>ExecutionOrder</b> is directly mapped with the numerical value of  <paramref name="Index" /> in <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. For example, Rules.Item(1) represents a rule with <b>ExecutionOrder</b> being 1, Rules.Item(2) represents a rule with <b>ExecutionOrder</b> being 2, and Rules.Item(Rules.Count) represents the rule with <b>ExecutionOrder</b> being <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLocalRule">
+      <MemberSignature Language="C#" Value="public bool IsLocalRule { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLocalRule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.IsLocalRule" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLocalRule As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsLocalRule { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64269)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64269)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the rule executes as a client-side rule. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A client-side rule executes only when Outlook is running. If <b>IsLocalRule</b> is <b>False</b>, then the rule executes as a server-side rule.</para>
+          <para>If you have a Microsoft Exchange Server e-mail account, the server can apply server-side rules to your messages even if you don't have Outlook running. The rules must be set to be applied to messages when they are delivered to your Inbox on the server, and the rules must be able to run to completion on the server. For example, a rule cannot run to completion on the server if the action specifies that a message be printed. If a rule cannot be applied on the server, it is applied when you start Outlook.</para>
+          <para>If the rules collection on a store contains both server and client-side rules, the server-side rules are applied first, followed by the client-side rules.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name of the rule. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Name</b> is the default property and an indexer for a rule in a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object. It corresponds to <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
+          <para>Rule names are not unique among rules in the same collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent <b>Object</b> of the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRuleType RuleType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRuleType RuleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuleType As OlRuleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRuleType RuleType { Microsoft::Office::Interop::Outlook::OlRuleType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64268)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" /> enumeration that indicates if the rule applies to messages that are being sent or received. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rule.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

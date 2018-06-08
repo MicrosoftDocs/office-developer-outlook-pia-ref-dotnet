@@ -1,0 +1,35 @@
+﻿<Type Name="OlkTimeZoneControlEvents_KeyDownEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void OlkTimeZoneControlEvents_KeyDownEventHandler(ref int KeyCode, OlShiftState Shift);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTimeZoneControlEvents_KeyDownEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTimeZoneControlEvents_KeyDownEventHandler(ByRef KeyCode As Integer, Shift As OlShiftState)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkTimeZoneControlEvents_KeyDownEventHandler(int % KeyCode, OlShiftState Shift);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="KeyCode" Type="System.Int32&amp;" RefType="ref" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="KeyCode">The numerical value of the key pressed.</param>
+    <param name="Shift">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

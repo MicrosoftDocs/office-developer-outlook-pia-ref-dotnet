@@ -1,0 +1,38 @@
+﻿<Type Name="Row" FullName="Microsoft.Office.Interop.Outlook.Row">
+  <TypeSignature Language="C#" Value="public interface Row : Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Row implements class Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Row&#xA;Implements _Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Row : Microsoft::Office::Interop::Outlook::_Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Row</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RowClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a row of data in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Row" />. </para>
+      <para>A <b>Table</b> is composed of rows and columns. It represents a read-only dynamic rowset of data in a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> or <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object. You can regard each row of a <b>Table</b> as an item in the folder, and each column as a property of the item. By default, the <b>Table</b> contains only a subset of properties for items in the folder. This makes the <b>Table</b> an in-memory lightweight rowset that supports fast enumeration and filtering of items in the folder.</para>
+      <para> If the <b>Table</b> object is obtained from <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, you can further specify a filter (in <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) to obtain a more restricted set of rows in the <b>Table</b>.</para>
+      <para> You can use the Table methods: <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />, <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> to obtain a specific row in a <b>Table</b>.</para>
+      <para> Use <see cref="M:Microsoft.Office.Interop.Outlook._Row.GetValues" /> to obtain an array of values that correspond to column values at that row in the <b>Table</b>.</para>
+      <para> Use the helper functions <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> to facilitate type conversion of column values at a specific row. For more information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
+      <para> Although additions and deletions of the underlying folder are reflected by the rows in the <b>Table</b>, the <b>Table</b> does not support any events for adding, changing, and removing of rows. If you require a writeable object from the <b>Table</b> row, obtain the Entry ID for that row from the default EntryID column in the <b>Table</b> and then use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to obtain a full item, such as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> or a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />, that supports read-write operations. For more information on default columns in a <b>Table</b>, see Default Properties Displayed in a Table.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>
