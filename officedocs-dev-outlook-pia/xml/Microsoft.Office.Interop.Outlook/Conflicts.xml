@@ -25,7 +25,7 @@
     <summary>Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objects that represent all Microsoft Outlook items that are in conflict with a particular Outlook item.</summary>
     <remarks>
       <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Conflicts</b> object.</para>
-      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is invloved in a conflict. A non-zero value indicates conflict.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is involved in a conflict. A non-zero value indicates conflict.</para>
       <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> property (<b>this</b> in C#)to retrieve a particular conflict item from the <b>Conflicts</b> collection object.</para>
       <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> methods to traverse the <b>Conflicts</b> collection.</para>
       <para />
