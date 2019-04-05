@@ -155,7 +155,7 @@
         <summary>Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables the rendering of a downward-pointing arrow on the button. Read/write.</summary>
         <value>To be added.</value>
         <remarks>
-          <para>This arrow is rendered on the right on the button in langauges written left-to-right and on the left in langauges written right-to-left. <b>True</b> to render the arrow on the button, <b>False</b> to disable the rendering.</para>
+          <para>This arrow is rendered on the right on the button in languages written left-to-right and on the left in languages written right-to-left. <b>True</b> to render the arrow on the button, <b>False</b> to disable the rendering.</para>
           <para />
         </remarks>
       </Docs>
