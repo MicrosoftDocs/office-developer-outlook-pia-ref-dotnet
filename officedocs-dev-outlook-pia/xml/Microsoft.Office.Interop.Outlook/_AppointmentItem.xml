@@ -659,7 +659,7 @@
         <param name="DestinationFolder">Specifies the folder to which the <b>AppointmentItem</b> object is copied.</param>
         <param name="CopyOptions">Specifies the user experience of the copy operation.</param>
         <summary>Copies the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> to the folder that is specified by the <paramref name="DestinationFolder" /> parameter and returns an object that represents the item created in the destination folder by the copy operation.</summary>
-        <returns>Returns an <b>AppointmentItem</b> objectthat represents the object created in the destination folder as a result of the copy operation.</returns>
+        <returns>Returns an <b>AppointmentItem</b> object that represents the object created in the destination folder as a result of the copy operation.</returns>
         <remarks>
           <para>If no argument is specified for the <paramref name="CopyOptions" /> parameter, <b>CopyTo</b> assumes that the value is <b>olCreateAppointment</b>.</para>
           <para>
