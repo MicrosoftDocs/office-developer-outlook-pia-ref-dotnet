@@ -819,7 +819,7 @@
           <para>
             <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</para>
           <para>
-            <b>Sort</b> cannot be used and will cause an error if the <paramref name="property" /> paramater is one of the following properties:                </para>
+            <b>Sort</b> cannot be used and will cause an error if the <paramref name="property" /> parameter is one of the following properties:                </para>
           <list type="table">
             <item>
               <description>
