@@ -3090,7 +3090,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns or sets a <b>DateTime</b> value that represents the start date and time of the appointment expressed in the Coordinated Univeral Time (UTC) standard. Read/write.</summary>
+        <summary>Returns or sets a <b>DateTime</b> value that represents the start date and time of the appointment expressed in the Coordinated Universal Time (UTC) standard. Read/write.</summary>
         <value>To be added.</value>
         <remarks>
           <para>Changing the value for the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> property or the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> property will cause Outlook to recalculate  the value of <b>StartUTC</b>. </para>
