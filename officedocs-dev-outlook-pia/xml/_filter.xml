@@ -73,7 +73,7 @@
     <namespaceFilter name="System.Web.Compilation">
       <typeFilter name="*" expose="false" />
     </namespaceFilter>
-    <!-- The ASP.NET team only wants these attributes exposed from their namespace. Their logic ecscapes me, but here it is. -->
+    <!-- The ASP.NET team only wants these attributes exposed from their namespace. Their logic escapes me, but here it is. -->
     <namespaceFilter name="System.Web.UI">
       <typeFilter name="ControlValuePropertyAttribute" expose="true" />
       <typeFilter name="PersistenceModeAttribute" expose="true" />
