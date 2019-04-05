@@ -467,7 +467,7 @@
         <summary>Sorts the rows of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> by the property specified in <paramref name="SortProperty" /> and resets the current row to just before the first row in the <b>Table</b>.</summary>
         <remarks>
           <para>
-            <paramref name="SortProperty" /> can be any explicit built-in property or custom property, with the exception of binary and multi-valued properties. The property must be referenced by its explicit string name; it cannot be referenced by namespace. For futher information on specifying sort properties, see <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sorting Items in a Folder</a></para>
+            <paramref name="SortProperty" /> can be any explicit built-in property or custom property, with the exception of binary and multi-valued properties. The property must be referenced by its explicit string name; it cannot be referenced by namespace. For further information on specifying sort properties, see <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sorting Items in a Folder</a></para>
           <para>Sorting the table is equivalent to calling a <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> method. The cursor will be positioned to the start of the Table.  </para>
           <para>If <b>Table.Sort</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> are called, the filtered items in the new <b>Table</b> will be sorted by the same <paramref name="SortProperty" /> and <paramref name="SortOrder" />.</para>
           <para>
