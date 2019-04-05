@@ -22,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Represents a rule condition that the sender or the recipeints of the message, as specified by <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />, is in the recipients list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</summary>
+    <summary>Represents a rule condition that the sender or the recipients of the message, as specified by <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />, is in the recipients list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</summary>
     <remarks>
       <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />. </para>
       <para>
