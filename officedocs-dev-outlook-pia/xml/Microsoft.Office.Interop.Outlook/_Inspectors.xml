@@ -170,7 +170,7 @@
       <Docs>
         <param name="Index">Either the index number of the object, or a value used to match the default property of an object in the collection.</param>
         <summary>Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object from the collection.</summary>
-        <value>An <b>Inspecto</b>r object that represents the specified object.</value>
+        <value>An <b>Inspector</b> object that represents the specified object.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
