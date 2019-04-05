@@ -170,7 +170,7 @@
         <remarks>
           <para>
             <b>FindNextRow</b> finds the next row based on the row returned by the preceding <b>FindRow</b> or <b>FindNextRow</b>. It does not depend on the current row (as the current row may have been repositioned since the preceding <b>FindRow</b> or <b>FindNextRow</b>, for example, by <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
-          <para>If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not not reposition the current row.</para>
+          <para>If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not reposition the current row.</para>
           <para />
         </remarks>
       </Docs>
