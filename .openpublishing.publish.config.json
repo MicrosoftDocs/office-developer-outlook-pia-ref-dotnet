@@ -36,7 +36,8 @@
         "SourceXmlFolder": "officedocs-dev-outlook-pia/xml",
         "OutputYamlFolder": "officedocs-dev-outlook-pia/api",
         "Flatten": true,
-        "id": "officedocs-dev-outlook-pia"
+        "id": "officedocs-dev-outlook-pia",
+        "SDP": true
       },
       "SplitTOC": [
         "officedocs-dev-outlook-pia/api/officedocs-dev-outlook-pia/toc.yml"
