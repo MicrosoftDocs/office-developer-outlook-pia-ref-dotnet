@@ -56,8 +56,7 @@
       ],
       "ms.suite": "office",
       "ms.technology": "sdk",
-      "ms.tgt_pltfrm": "dotnet",
-      "apiPlatform": "dotnet"
+      "ms.tgt_pltfrm": "dotnet"
     },
     "fileMetadata": {
       "author": {
