@@ -632,7 +632,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Reurns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control. Read/write.</summary>
+        <summary>Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control. Read/write.</summary>
         <value>To be added.</value>
         <remarks>
           <para>

@@ -402,7 +402,7 @@
       <Docs>
         <summary>Occurs when the user switches to a different item in a folder using the user interface (UI) or programmatically.</summary>
         <remarks>
-          <para>This event also occurs when the user, either programmatically or using the user inerface, clicks or switches to a different folder that contains items as Outlook automatically selects the first item in that folder. However, this event does not occur if the folder is a file-system folder or if any folder with a current Web view is displayed. </para>
+          <para>This event also occurs when the user, either programmatically or using the user interface, clicks or switches to a different folder that contains items as Outlook automatically selects the first item in that folder. However, this event does not occur if the folder is a file-system folder or if any folder with a current Web view is displayed. </para>
           <para />
         </remarks>
       </Docs>

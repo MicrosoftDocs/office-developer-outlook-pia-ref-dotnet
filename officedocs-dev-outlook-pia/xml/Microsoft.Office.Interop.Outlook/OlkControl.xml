@@ -283,7 +283,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) that represents a list of possible values for the drop-down list for the control, seperated by semicolons. Read/write.</summary>
+        <summary>Returns or sets a <b>String</b> (<b>string</b> in C#) that represents a list of possible values for the drop-down list for the control, separated by semicolons. Read/write.</summary>
         <value>To be added.</value>
         <remarks>
           <para>For controls that do not support a drop-down list, the value of this property is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
