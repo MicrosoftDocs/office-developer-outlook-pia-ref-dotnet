@@ -170,7 +170,7 @@
         <remarks>
           <para>
             <b>FindNextRow</b> finds the next row based on the row returned by the preceding <b>FindRow</b> or <b>FindNextRow</b>. It does not depend on the current row (as the current row may have been repositioned since the preceding <b>FindRow</b> or <b>FindNextRow</b>, for example, by <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
-          <para>If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not not reposition the current row.</para>
+          <para>If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not reposition the current row.</para>
           <para />
         </remarks>
       </Docs>
@@ -300,7 +300,7 @@
         <returns>An <b>Integer</b> (<b>int</b> in C#) value that represents the number of rows in the Table.</returns>
         <remarks>
           <para>
-            <b>GetRowCount</b> on a large table will result in a performance impact.  Due to MAPI restrictions (for example, memory constraints for large tables, simultaneous operations on the <b>Table</b>), <b>GetRowCount</b> may not be able to determine the number of rows in the <b>Table</b>,  or it may only only return an approximate row count. In these cases, <b>GetRowCount</b> will return an error. You should use appropriate error detection for <b>GetRowCount</b> to determine if the call returns an error. </para>
+            <b>GetRowCount</b> on a large table will result in a performance impact.  Due to MAPI restrictions (for example, memory constraints for large tables, simultaneous operations on the <b>Table</b>), <b>GetRowCount</b> may not be able to determine the number of rows in the <b>Table</b>,  or it may only return an approximate row count. In these cases, <b>GetRowCount</b> will return an error. You should use appropriate error detection for <b>GetRowCount</b> to determine if the call returns an error. </para>
           <para />
         </remarks>
       </Docs>

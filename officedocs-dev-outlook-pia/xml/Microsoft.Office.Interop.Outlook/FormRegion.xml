@@ -31,7 +31,7 @@
       <para>The <b>FormRegion</b> object allows an add-in to add code behind a form region in a custom form to modify the appearance and behavior of the form region. </para>
       <para>To obtain an instance of the <b>FormRegion</b> object, an add-in must implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface. Outlook allocates storage for the form region, instantiates an instance of the   <b>FormRegion</b> object, and returns the <b>FormRegion</b> object in the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" /> method. </para>
       <para>When the add-in closes the frame for the form region, the add-in must release the object for the form region.</para>
-      <para>For more infomation on programming a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extending a Form Region with an Add-in</a></para>
+      <para>For more information on programming a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extending a Form Region with an Add-in</a></para>
       <para />
     </remarks>
   </Docs>

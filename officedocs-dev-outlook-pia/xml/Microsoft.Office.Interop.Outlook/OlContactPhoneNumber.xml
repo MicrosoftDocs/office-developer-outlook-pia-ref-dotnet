@@ -12,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Specfies the telephone number type.</summary>
+    <summary>Specifies the telephone number type.</summary>
     <remarks>
       <para>See <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />.</para>
       <para />

@@ -140,7 +140,7 @@
         <value>To be added.</value>
         <remarks>
           <para>After you enable a rule condition, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  condition and its enabled state will persist beyond the current session.  A rule condition is only enabled after it have been saved successfully. </para>
-          <para>Returns an error if you attempt to enable a rule condition that is supported only on a rule of type  <b>olRuleSend</b> for a rule of type <b>olRuleReceive</b>, or vice versa.  For more information on suppport by rules for receiving  messages or rules for sending messages, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+          <para>Returns an error if you attempt to enable a rule condition that is supported only on a rule of type  <b>olRuleSend</b> for a rule of type <b>olRuleReceive</b>, or vice versa.  For more information on support by rules for receiving  messages or rules for sending messages, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
           <para />
         </remarks>
       </Docs>
