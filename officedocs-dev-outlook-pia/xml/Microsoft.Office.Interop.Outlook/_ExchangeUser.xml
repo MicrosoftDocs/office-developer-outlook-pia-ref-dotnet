@@ -741,7 +741,7 @@
         <returns>To be added.</returns>
         <remarks>
           <para>The picture of the Exchange user is stored in Active Directory and displayed in various places in Outlook, including the dialog box for Outlook Properties and Contact Card.If the picture does not exist for the user, <b>GetPicture</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-          <para>You can only call <b>GetPicture</b> from code that runs in-process as Outlook. An <b>StdPicture</b> object cannot be marshaled across process boundaries. If you attempt to call <b>GetPicture</b> from out-of-process code, an exception occurs. For more information, see <a href="http://support.microsoft.com/kb/150034">An automation server cannot pass a pointer to the picture object's IPictureDisp implementation across process boundaries</a></para>
+          <para>You can only call <b>GetPicture</b> from code that runs in-process as Outlook. An <b>StdPicture</b> object cannot be marshaled across process boundaries. If you attempt to call <b>GetPicture</b> from out-of-process code, an exception occurs.</para>
           <para />
         </remarks>
       </Docs>
