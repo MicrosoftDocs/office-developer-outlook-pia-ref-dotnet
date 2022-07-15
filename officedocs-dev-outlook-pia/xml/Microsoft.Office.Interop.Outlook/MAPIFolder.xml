@@ -624,7 +624,7 @@ End Sub</code>
               <para>Hidden folders</para>
             </item>
           </list>
-          <para>You can only call <b>GetCustomIcon</b> from code that runs in-process as Outlook. An <b>StdPicture</b> object cannot be marshaled across process boundaries. If you attempt to call <b>GetCustomIcon</b> from out-of-process code, an exception occurs. For more information, see <a href="http://support.microsoft.com/kb/150034">An automation server cannot pass a pointer to the picture object's IPictureDisp implementation across process boundaries</a></para>
+          <para>You can only call <b>GetCustomIcon</b> from code that runs in-process as Outlook. An <b>StdPicture</b> object cannot be marshaled across process boundaries. If you attempt to call <b>GetCustomIcon</b> from out-of-process code, an exception occurs. </para>
           <para />
         </remarks>
       </Docs>
