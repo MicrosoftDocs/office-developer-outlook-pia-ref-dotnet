@@ -918,29 +918,39 @@
               </description>
             </item>
             <item>
-              <para>
-                <b>InlineShapes.AddChart</b>
-              </para>
+              <description>
+                <para>
+                  <b>InlineShapes.AddChart</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Shapes.AddChart</b>
-              </para>
+              <description>
+                <para>
+                  <b>Shapes.AddChart</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Range.InsertXML</b>
-              </para>
+              <description>
+                <para>
+                  <b>Range.InsertXML</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Selection.InsertXML</b>
-              </para>
+              <description>
+                <para>
+                  <b>Selection.InsertXML</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Range.ImportFragment</b>
-              </para>
+              <description>
+                <para>
+                  <b>Range.ImportFragment</b>
+                </para>
+              </description>
             </item>
           </list>
           <para />
