@@ -904,39 +904,53 @@
           <para>The <b>WordEditor</b> property is only valid if <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> returns <b>True</b> and the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> is <b>olEditorWord</b>. The returned <b>WordDocument</b> object provides access to most of the Word object model except for the following members: </para>
           <list type="bullet">
             <item>
-              <para>
-                <b>Tables.Add</b>
-              </para>
+              <description>
+                <para>
+                  <b>Tables.Add</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Range.ConvertToTable</b>
-              </para>
+              <description>
+                <para>
+                  <b>Range.ConvertToTable</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>InlineShapes.AddChart</b>
-              </para>
+              <description>
+                <para>
+                  <b>InlineShapes.AddChart</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Shapes.AddChart</b>
-              </para>
+              <description>
+                <para>
+                  <b>Shapes.AddChart</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Range.InsertXML</b>
-              </para>
+              <description>
+                <para>
+                  <b>Range.InsertXML</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Selection.InsertXML</b>
-              </para>
+              <description>
+                <para>
+                  <b>Selection.InsertXML</b>
+                </para>
+              </description>
             </item>
             <item>
-              <para>
-                <b>Range.ImportFragment</b>
-              </para>
+              <description>
+                <para>
+                  <b>Range.ImportFragment</b>
+                </para>
+              </description>
             </item>
           </list>
           <para />
