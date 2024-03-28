@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "ms.service": "outlook",
       "feedback_system": "Standard",
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
@@ -50,7 +51,6 @@
       "ms.topic": "reference",
       "audience": "developer",
       "ms.reviewer": "",
-      "ms.prod": "outlook",
       "products": [
         "https://authoring-docs-microsoft.poolparty.biz/devrel/6ab06385-661e-4214-8870-bbe4071c960d", 
         "https://authoring-docs-microsoft.poolparty.biz/devrel/3e34b70d-bca0-4369-a01b-71d1edfd427b"
