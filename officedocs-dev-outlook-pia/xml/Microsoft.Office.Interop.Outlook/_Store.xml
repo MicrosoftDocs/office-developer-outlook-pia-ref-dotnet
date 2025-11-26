@@ -201,7 +201,7 @@
         <summary>Returns a <b>String</b> (<b>string</b> in C#) representing the full file path for a Personal Folders File (.pst) or an Offline Folder File (.ost) store. Read-only.</summary>
         <value>To be added.</value>
         <remarks>
-          <para>This property supports both Exchange and non-Exchange stores. If the store is not a .pst or .ost store, <b>FilePath</b> returns an empty string.</para>
+          <para>This property supports both Exchange and non-Exchange stores. If the store is not a .pst or .ost store, <b>FilePath</b> may return <b>null</b> or an empty string.</para>
           <para />
         </remarks>
       </Docs>
